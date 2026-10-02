@@ -1,0 +1,349 @@
+%% ---------------------------------------------------------------------------
+%% Tree Models report template (CS 4372, HW2)
+%%
+%% How to use:
+%%   1. Edit the "PROJECT METADATA" block below (title, dataset, team).
+%%   2. Work through the notebook. Every figure it saves to figs/ is picked up
+%%      automatically by \figslot below; until then a grey placeholder box shows.
+%%   3. Replace each \todo{...} with your own text. Search for "todo" to find them.
+%%   4. Do NOT put code or code snippets in this report (assignment requirement).
+%% ---------------------------------------------------------------------------
+\documentclass[11pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{amsmath}
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{float}
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage[numbers,sort&compress]{natbib}
+
+\graphicspath{{figs/}}
+\definecolor{accent}{HTML}{1F4E79}
+
+% =========================== PROJECT METADATA ===============================
+\newcommand{\coursecode}{CS 4372}
+\newcommand{\instructor}{A. Nagar}
+\newcommand{\projecttitle}{Tree-Based Models on the TODO Dataset}
+\newcommand{\projectsubtitle}{Predicting TODO (target) from TODO (predictors)}
+\newcommand{\memberA}{Team Member 1}
+\newcommand{\netidA}{abc123456}
+\newcommand{\memberB}{Team Member 2}      % delete the \memberB/\netidB lines on the
+\newcommand{\netidB}{xyz123456}           % cover page if working alone
+\newcommand{\headerauthors}{Member 1 and Member 2}
+\newcommand{\datasetname}{TODO dataset name}
+\newcommand{\dataseturl}{https://archive.ics.uci.edu/dataset/TODO}
+% ============================================================================
+
+% Highlighted reminder; remove every use before submitting.
+\DeclareRobustCommand{\todo}[1]{{\color{red}\textit{[TODO: #1]}}}
+
+% Figure slot: shows the figure if figs/<name>.pdf exists, else a grey box.
+% Usage: \figslot{file-stem}{width as fraction of textwidth}{caption}{label}
+\newcommand{\figslot}[4]{%
+  \begin{figure}[htbp]
+    \centering
+    \IfFileExists{figs/#1.pdf}{%
+      \includegraphics[width=#2\textwidth]{#1}%
+    }{%
+      \fbox{\parbox[c][1.6in][c]{#2\textwidth}{\centering\color{gray}
+        Placeholder: run the notebook to create \texttt{figs/\detokenize{#1}.pdf}}}%
+    }
+    \caption{#3}
+    \label{#4}
+  \end{figure}%
+}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=accent,
+  citecolor=accent,
+  urlcolor=accent,
+  pdftitle={Tree-Based Models Report}
+}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.55em}
+\setlength{\tabcolsep}{5pt}
+\renewcommand{\arraystretch}{1.12}
+\setlist[itemize]{leftmargin=1.5em,itemsep=0.2em,topsep=0.3em}
+
+\pagestyle{fancy}
+\setlength{\headheight}{14pt}
+\fancyhf{}
+\fancyhead[L]{\coursecode: Tree-Based Models}
+\fancyhead[R]{\headerauthors}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% ------------------------------- Cover page ---------------------------------
+\pagenumbering{roman}
+\begin{titlepage}
+  \thispagestyle{empty}
+  \centering
+  \vspace*{1.15in}
+
+  {\Large\textcolor{accent}{\coursecode}\par}
+  \vspace{0.35in}
+  {\Huge\bfseries \projecttitle\par}
+  \vspace{0.25in}
+  {\Large \projectsubtitle\par}
+
+  \vspace{0.55in}
+  \rule{0.78\textwidth}{0.6pt}
+  \vspace{0.5in}
+
+  {\large
+  \begin{tabular}{>{\bfseries}rl}
+    Team member: & \memberA \\
+    NetID: & \netidA \\
+    \addlinespace[0.3em]
+    Team member: & \memberB \\
+    NetID: & \netidB \\
+  \end{tabular}
+  \par}
+
+  \vfill
+  {\large The University of Texas at Dallas\par}
+  \vspace{0.12in}
+  {\large Instructor: \instructor\par}
+  \vspace{0.4in}
+  {\small Dataset: \datasetname\par}
+  {\small\url{\dataseturl}\par}
+\end{titlepage}
+
+\pagenumbering{arabic}
+
+% -------------------------------- Abstract ----------------------------------
+\begin{abstract}
+\todo{Write this last, in 150--200 words. Cover: the prediction task and dataset; the
+data-quality actions taken; the four tuned models (decision tree, random forest, AdaBoost,
+XGBoost); the best model and its headline test metrics; what the diagnostics (confusion
+matrix, ROC, precision--recall) revealed; and the main limitation.}
+\end{abstract}
+
+% ============================ 1. OBJECTIVE & DATA ===========================
+\section{Project Objective and Dataset}
+
+\todo{State the prediction goal and why it matters. Name the dataset, its source, its size
+(rows and columns), and cite it \citep{dataset}. Identify the
+target variable and whether the task is classification or regression, and say why you chose
+it.}
+
+\todo{Describe the predictors in plain language and list any units or encodings documented by
+the source. State any assumptions here (the assignment asks for assumptions to be stated
+completely).}
+
+\begin{table}[H]
+\centering
+\caption{Variables in the \datasetname{} dataset.}
+\label{tab:variables}
+\small
+\begin{tabularx}{0.92\textwidth}{lXl}
+\toprule
+Variable & Meaning & Type \\
+\midrule
+\todo{name} & \todo{meaning} & \todo{type} \\
+\todo{name} & \todo{meaning} & \todo{type} \\
+\todo{target} & \todo{meaning; mark as response} & \todo{type} \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+% ======================= 2. DATA QUALITY & PREPROCESSING ====================
+\section{Data Quality and Preprocessing}
+
+\subsection{Loading and consistency checks}
+
+\todo{Explain how the data were loaded from the public URL. Report missing values,
+duplicates, impossible or inconsistent values, and what you did about each. State
+whether any rule used the target.}
+
+\begin{table}[H]
+\centering
+\caption{Data audit and final sample sizes.}
+\label{tab:audit}
+\begin{tabular}{lr}
+\toprule
+Audit item & Result \\
+\midrule
+Raw observations & \todo{n} \\
+Missing cells & \todo{n} \\
+Duplicate rows & \todo{n} \\
+Inconsistent rows removed & \todo{n} \\
+Final observations & \todo{n} \\
+Training observations & \todo{n} \\
+Test observations & \todo{n} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Distributions and categorical conversion}
+
+\todo{Summarize the attribute distributions. Are they normally distributed? If not, give
+plausible reasons. Discuss class balance if the task is classification. Explain how
+categorical variables were converted and why that encoding was chosen.}
+
+\figslot{01_distributions}{0.96}{Distributions of the predictors.}{fig:distributions}
+\figslot{02_target_and_categoricals}{0.90}{Target distribution and its relationship to
+categorical predictors.}{fig:target}
+
+% ================== 3. CORRELATION, SCALING, FEATURE SELECTION ==============
+\section{Correlation, Scaling, and Feature Selection}
+
+\todo{Report the strongest predictor--target relationships and the most correlated predictor
+pairs (give numbers). Explain what multicollinearity means for each of the four tree models.}
+
+\figslot{03_correlation_heatmap}{0.76}{Training-set correlations among predictors and the
+target.}{fig:correlation}
+
+\todo{Describe the standardization and normalization steps, what each was fit on, and
+whether tree models actually need them. Then explain how the important attributes were
+chosen and why you did not use all attributes blindly.}
+
+\figslot{05_feature_selection}{0.72}{\todo{Describe the feature-selection evidence.}}{fig:selection}
+
+% ====================== 4. MODEL CONSTRUCTION & TUNING =======================
+\section{Model Construction and Tuning}
+
+\todo{State the train/test split (proportions, random seed) and the cross-validation scheme
+used inside the training set. Name the library \citep{pedregosa2011scikit}. Explain the scoring metric used by GridSearchCV and why.}
+
+\begin{table}[H]
+\centering
+\caption{Hyperparameter grids searched with \texttt{GridSearchCV}.}
+\label{tab:grids}
+\small
+\begin{tabularx}{\textwidth}{lXr}
+\toprule
+Model & Parameters and values searched & Combinations \\
+\midrule
+Decision tree & \todo{e.g.\ depth, min samples, criterion} & \todo{n} \\
+Random forest & \todo{...} & \todo{n} \\
+AdaBoost & \todo{...} & \todo{n} \\
+XGBoost & \todo{...} & \todo{n} \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{Decision tree}
+\todo{Introduce the method \citep{breiman1984cart}. Give best parameters, cross-validated score, and why you are convinced these are the best
+values (e.g.\ the optimum is interior to the grid, not on its edge).}
+\figslot{06_dt_tuning}{0.78}{\todo{Decision tree tuning results.}}{fig:dttuning}
+\figslot{07_dt_tree}{0.96}{\todo{The best decision tree.}}{fig:dttree}
+
+\subsection{Random forest}
+\todo{Same structure as above \citep{breiman2001random}. Add what the ensemble gains over a single tree.}
+\figslot{08_rf_tuning}{0.78}{\todo{Random forest tuning results.}}{fig:rftuning}
+\figslot{09_rf_tree_and_importance}{0.94}{\todo{One tree from the best forest, with feature
+importances.}}{fig:rftree}
+
+\subsection{AdaBoost}
+\todo{Same structure as above \citep{freund1997decision}. Note the base-estimator choice and the learning-rate
+trade-off.}
+\figslot{10_ada_tuning}{0.78}{\todo{AdaBoost tuning results.}}{fig:adatuning}
+\figslot{11_ada_stump_and_importance}{0.94}{\todo{A boosted tree with feature
+importances.}}{fig:adatree}
+
+\subsection{XGBoost}
+\todo{Same structure as above \citep{chen2016xgboost}. Mention the regularization parameters you tuned.}
+\figslot{12_xgb_tuning}{0.78}{\todo{XGBoost tuning results.}}{fig:xgbtuning}
+\figslot{13_xgb_tree_and_importance}{0.94}{\todo{An XGBoost tree with feature
+importances.}}{fig:xgbtree}
+
+% ================================ 5. RESULTS =================================
+\section{Test Results}
+
+\todo{All four models were evaluated once on the same untouched test set. Present the
+metric table, then interpret the confusion matrices, ROC curves, and precision--recall
+curves. Explain what each plot shows that accuracy alone would hide.}
+
+\begin{table}[H]
+\centering
+\caption{Performance on the held-out test set.}
+\label{tab:performance}
+\small
+\begin{tabular}{lrrrrrr}
+\toprule
+Model & Accuracy & Precision & Recall & F1 & ROC AUC & PR AUC \\
+\midrule
+Baseline (\todo{majority class}) & -- & -- & -- & -- & -- & -- \\
+Decision tree & -- & -- & -- & -- & -- & -- \\
+Random forest & -- & -- & -- & -- & -- & -- \\
+AdaBoost & -- & -- & -- & -- & -- & -- \\
+XGBoost & -- & -- & -- & -- & -- & -- \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\figslot{14_confusion_matrices}{0.96}{Confusion matrices for the four tuned models on the
+test set.}{fig:confusion}
+\figslot{15_roc_curves}{0.72}{ROC curves for the four tuned models.}{fig:roc}
+\figslot{16_pr_curves}{0.72}{Precision--recall curves for the four tuned models.}{fig:pr}
+\figslot{17_model_comparison}{0.82}{Test performance across models.}{fig:modelcomparison}
+
+\subsection{Which method works best, and why}
+\todo{Required by the assignment: compare the four models, say which works best, and give
+your analysis of the reason (bias--variance, ensembling, boosting, regularization, data
+size, noise, and so on). Say how large the differences are relative to uncertainty.}
+
+% ======================= 6. LIMITATIONS & CONCLUSION =========================
+\section{Assumptions, Limitations, and Conclusion}
+
+\todo{List your assumptions, the dataset's limitations, anything the models cannot capture,
+and a short conclusion that answers the objective stated in Section 1.}
+
+% ================================ APPENDIX ===================================
+\appendix
+\section{Reproducibility and Requirement Check}
+
+The notebook reads the raw data from the public URL below, so no local path is required.
+The fixed random state is \todo{seed}. Scaling, feature selection, and tuning use training
+data only. The notebook exports its experiment logs to the \texttt{results} directory.
+
+\begin{center}
+\small\url{\dataseturl}
+\end{center}
+
+\begin{table}[H]
+\centering
+\caption{Location of the required project components.}
+\small
+\begin{tabularx}{0.96\textwidth}{lX}
+\toprule
+Requirement & Evidence in the submitted work \\
+\midrule
+Public data source & \todo{URL and loading method} \\
+Data consistency & \todo{missing, duplicate, and inconsistent-value checks} \\
+Attribute summary and normality & \todo{summary table, plots, interpretation} \\
+Categorical conversion & \todo{encoding used} \\
+Standardization and normalization & \todo{both shown; which was used} \\
+Correlation analysis & \todo{numerical matrix and plots} \\
+Important-attribute selection & \todo{method and result} \\
+Decision tree, random forest, AdaBoost, XGBoost & \todo{four tuned models} \\
+Hyperparameter tuning & \todo{GridSearchCV grids and sizes} \\
+Tree visualization & \todo{figures showing each model's trees} \\
+Confusion matrix, precision, recall, F-score & \todo{table and figure} \\
+ROC and precision--recall curves & \todo{figures and interpretation} \\
+Model comparison & \todo{table and discussion} \\
+Assumptions stated & \todo{section reference} \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\end{document}
