@@ -1,0 +1,86 @@
+[
+  {
+    "Model": "Decision Tree",
+    "Attributes": [
+      "odor",
+      "spore-print-color",
+      "ring-type",
+      "stalk-surface-below-ring",
+      "gill-size"
+    ],
+    "Parameters": {
+      "model__max_depth": 6,
+      "model__min_samples_leaf": 5,
+      "select__drop": [
+        "gill-color",
+        "stalk-surface-above-ring"
+      ],
+      "select__k": 7,
+      "select__prune": false
+    }
+  },
+  {
+    "Model": "Random Forest",
+    "Attributes": [
+      "odor",
+      "spore-print-color",
+      "ring-type",
+      "stalk-surface-below-ring",
+      "gill-size"
+    ],
+    "Parameters": {
+      "model__max_depth": 6,
+      "model__max_features": 0.7,
+      "model__min_samples_leaf": 3,
+      "model__n_estimators": 100,
+      "select__drop": [
+        "gill-color",
+        "stalk-surface-above-ring"
+      ],
+      "select__k": 7,
+      "select__prune": false
+    }
+  },
+  {
+    "Model": "AdaBoost",
+    "Attributes": [
+      "odor",
+      "spore-print-color",
+      "ring-type",
+      "stalk-surface-below-ring",
+      "gill-size"
+    ],
+    "Parameters": {
+      "model__estimator__max_depth": 1,
+      "model__learning_rate": 1.0,
+      "model__n_estimators": 150,
+      "select__drop": [
+        "gill-color",
+        "stalk-surface-above-ring"
+      ],
+      "select__k": 7,
+      "select__prune": false
+    }
+  },
+  {
+    "Model": "XGBoost",
+    "Attributes": [
+      "odor",
+      "spore-print-color",
+      "ring-type",
+      "stalk-surface-below-ring",
+      "gill-size"
+    ],
+    "Parameters": {
+      "model__learning_rate": 0.2,
+      "model__max_depth": 2,
+      "model__n_estimators": 250,
+      "select__drop": [
+        "gill-color",
+        "stalk-surface-above-ring"
+      ],
+      "select__k": 7,
+      "select__prune": false
+    }
+  }
+]

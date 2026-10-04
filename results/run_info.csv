@@ -1,0 +1,7 @@
+Item,Value
+Random state,4372
+Training rows,6499
+Test rows,1625
+CV folds,5
+Primary metric,Positive-class F1
+Models tied in CV,"Decision Tree, Random Forest, AdaBoost, XGBoost"

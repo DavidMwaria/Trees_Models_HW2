@@ -1,0 +1,21 @@
+Model,Fold,Validation rows,Rows with seen selected profiles,Rows with unseen levels,Errors with unseen levels,Errors with seen levels,Traits with unseen levels
+AdaBoost,1,1688,428,1084,0,55,"spore-print-color, ring-type"
+AdaBoost,2,1265,232,0,0,0,
+AdaBoost,3,1204,215,0,0,0,
+AdaBoost,4,1169,106,100,0,30,"odor, spore-print-color, ring-type"
+AdaBoost,5,1173,0,92,56,88,spore-print-color
+Decision Tree,1,1688,428,1084,0,55,"spore-print-color, ring-type"
+Decision Tree,2,1265,232,0,0,0,
+Decision Tree,3,1204,215,0,0,0,
+Decision Tree,4,1169,106,100,0,30,"odor, spore-print-color, ring-type"
+Decision Tree,5,1173,0,92,56,8,spore-print-color
+Random Forest,1,1688,428,1084,0,55,"spore-print-color, ring-type"
+Random Forest,2,1265,232,0,0,0,
+Random Forest,3,1204,215,0,0,0,
+Random Forest,4,1169,106,100,0,30,"odor, spore-print-color, ring-type"
+Random Forest,5,1173,0,92,56,8,spore-print-color
+XGBoost,1,1688,428,1084,0,35,"spore-print-color, ring-type"
+XGBoost,2,1265,232,0,0,0,
+XGBoost,3,1204,215,0,0,0,
+XGBoost,4,1169,106,100,0,30,"odor, spore-print-color, ring-type"
+XGBoost,5,1173,0,92,56,8,spore-print-color

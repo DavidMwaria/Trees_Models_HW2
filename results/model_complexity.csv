@@ -1,0 +1,5 @@
+Model,Trees,Max fitted depth,Total leaves
+Decision Tree,1,6,10
+Random Forest,100,6,1106
+AdaBoost,150,1,300
+XGBoost,250,2,836

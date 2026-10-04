@@ -1,0 +1,757 @@
+Model,Candidate,Attributes permitted,Pruning,Removed,Mean CV F1,CV SD,Selected
+Decision Tree,0,6,False,,0.9963331158751825,0.000640487578332993,False
+Decision Tree,1,6,True,,0.9963331158751825,0.000640487578332993,False
+Decision Tree,2,7,False,,0.9963331158751825,0.000640487578332993,False
+Decision Tree,3,7,True,,0.9963331158751825,0.000640487578332993,False
+Decision Tree,4,8,False,,0.9963331158751825,0.000640487578332993,False
+Decision Tree,5,8,True,,0.9963331158751825,0.000640487578332993,False
+Decision Tree,6,9,False,,0.996325731778672,0.0008128878985570596,False
+Decision Tree,7,9,True,,0.996325731778672,0.0008128878985570596,False
+Decision Tree,8,10,False,,0.9618183772082881,0.003701069256244447,False
+Decision Tree,9,10,True,,0.9618183772082881,0.003701069256244447,False
+Decision Tree,10,21,False,,0.9849920729976596,0.0016347971332988217,False
+Decision Tree,11,21,True,,0.9849920729976596,0.0016347971332988217,False
+Decision Tree,12,6,False,,0.9963331158751825,0.000640487578332993,False
+Decision Tree,13,6,True,,0.9963331158751825,0.000640487578332993,False
+Decision Tree,14,7,False,,0.9963331158751825,0.000640487578332993,False
+Decision Tree,15,7,True,,0.9963331158751825,0.000640487578332993,False
+Decision Tree,16,8,False,,0.9963331158751825,0.000640487578332993,False
+Decision Tree,17,8,True,,0.9963331158751825,0.000640487578332993,False
+Decision Tree,18,9,False,,0.996325731778672,0.0008128878985570596,False
+Decision Tree,19,9,True,,0.996325731778672,0.0008128878985570596,False
+Decision Tree,20,10,False,,0.9618183772082881,0.003701069256244447,False
+Decision Tree,21,10,True,,0.9618183772082881,0.003701069256244447,False
+Decision Tree,22,21,False,,0.9849920729976596,0.0016347971332988217,False
+Decision Tree,23,21,True,,0.9849920729976596,0.0016347971332988217,False
+Decision Tree,24,6,False,,0.9987199975463212,0.0009612804775641835,False
+Decision Tree,25,6,True,,0.9987199975463212,0.0009612804775641835,False
+Decision Tree,26,7,False,,1.0,0.0,False
+Decision Tree,27,7,True,,1.0,0.0,False
+Decision Tree,28,8,False,,1.0,0.0,False
+Decision Tree,29,8,True,,1.0,0.0,False
+Decision Tree,30,9,False,,0.9998403830806065,0.00031923383878691426,False
+Decision Tree,31,9,True,,0.9998403830806065,0.00031923383878691426,False
+Decision Tree,32,10,False,,1.0,0.0,False
+Decision Tree,33,10,True,,1.0,0.0,False
+Decision Tree,34,21,False,,0.9987210209335575,0.0006410885591372065,False
+Decision Tree,35,21,True,,0.9987210209335575,0.0006410885591372065,False
+Decision Tree,36,6,False,,0.9987199975463212,0.0009612804775641835,False
+Decision Tree,37,6,True,,0.9987199975463212,0.0009612804775641835,False
+Decision Tree,38,7,False,,1.0,0.0,False
+Decision Tree,39,7,True,,1.0,0.0,False
+Decision Tree,40,8,False,,1.0,0.0,False
+Decision Tree,41,8,True,,1.0,0.0,False
+Decision Tree,42,9,False,,0.9998403830806065,0.00031923383878691426,False
+Decision Tree,43,9,True,,0.9998403830806065,0.00031923383878691426,False
+Decision Tree,44,10,False,,1.0,0.0,False
+Decision Tree,45,10,True,,1.0,0.0,False
+Decision Tree,46,21,False,,0.9993589743589745,0.0012820512820512775,False
+Decision Tree,47,21,True,,0.9993589743589745,0.0012820512820512775,False
+Decision Tree,48,6,False,,0.9987199975463212,0.0009612804775641835,False
+Decision Tree,49,6,True,,0.9987199975463212,0.0009612804775641835,False
+Decision Tree,50,7,False,,1.0,0.0,False
+Decision Tree,51,7,True,,1.0,0.0,False
+Decision Tree,52,8,False,,1.0,0.0,False
+Decision Tree,53,8,True,,1.0,0.0,False
+Decision Tree,54,9,False,,1.0,0.0,False
+Decision Tree,55,9,True,,1.0,0.0,False
+Decision Tree,56,10,False,,1.0,0.0,False
+Decision Tree,57,10,True,,1.0,0.0,False
+Decision Tree,58,21,False,,1.0,0.0,False
+Decision Tree,59,21,True,,1.0,0.0,False
+Decision Tree,60,6,False,,0.9987199975463212,0.0009612804775641835,False
+Decision Tree,61,6,True,,0.9987199975463212,0.0009612804775641835,False
+Decision Tree,62,7,False,,1.0,0.0,False
+Decision Tree,63,7,True,,1.0,0.0,False
+Decision Tree,64,8,False,,1.0,0.0,False
+Decision Tree,65,8,True,,1.0,0.0,False
+Decision Tree,66,9,False,,1.0,0.0,False
+Decision Tree,67,9,True,,1.0,0.0,False
+Decision Tree,68,10,False,,1.0,0.0,False
+Decision Tree,69,10,True,,1.0,0.0,False
+Decision Tree,70,21,False,,0.9998401278976818,0.0003197442046362742,False
+Decision Tree,71,21,True,,0.9998401278976818,0.0003197442046362742,False
+Decision Tree,72,5,False,"gill-color, stalk-surface-above-ring",0.9963331158751825,0.000640487578332993,False
+Decision Tree,73,4,False,"gill-color, stalk-surface-above-ring, odor",0.9612728016899708,0.004746445108716164,False
+Decision Tree,74,4,False,"gill-color, stalk-surface-above-ring, spore-print-color",0.9896747499816623,0.002211248833620915,False
+Decision Tree,75,4,False,"gill-color, stalk-surface-above-ring, ring-type",0.9963331158751825,0.000640487578332993,False
+Decision Tree,76,4,False,"gill-color, stalk-surface-above-ring, stalk-surface-below-ring",0.9938947859888312,0.001883049018147801,False
+Decision Tree,77,4,False,"gill-color, stalk-surface-above-ring, gill-size",0.9963331158751825,0.000640487578332993,False
+Decision Tree,78,5,False,"gill-color, stalk-surface-above-ring",0.9963331158751825,0.000640487578332993,False
+Decision Tree,79,4,False,"gill-color, stalk-surface-above-ring, odor",0.9612728016899708,0.004746445108716164,False
+Decision Tree,80,4,False,"gill-color, stalk-surface-above-ring, spore-print-color",0.9896747499816623,0.002211248833620915,False
+Decision Tree,81,4,False,"gill-color, stalk-surface-above-ring, ring-type",0.9963331158751825,0.000640487578332993,False
+Decision Tree,82,4,False,"gill-color, stalk-surface-above-ring, stalk-surface-below-ring",0.9938947859888312,0.001883049018147801,False
+Decision Tree,83,4,False,"gill-color, stalk-surface-above-ring, gill-size",0.9963331158751825,0.000640487578332993,False
+Decision Tree,84,5,False,"gill-color, stalk-surface-above-ring",1.0,0.0,False
+Decision Tree,85,4,False,"gill-color, stalk-surface-above-ring, odor",0.9798363671591815,0.0029637834328914486,False
+Decision Tree,86,4,False,"gill-color, stalk-surface-above-ring, spore-print-color",0.9896747499816623,0.002211248833620915,False
+Decision Tree,87,4,False,"gill-color, stalk-surface-above-ring, ring-type",0.9987199975463212,0.0009612804775641835,False
+Decision Tree,88,4,False,"gill-color, stalk-surface-above-ring, stalk-surface-below-ring",0.9943961521494286,0.0016817065937984577,False
+Decision Tree,89,4,False,"gill-color, stalk-surface-above-ring, gill-size",0.9987199975463212,0.0009612804775641835,False
+Decision Tree,90,5,False,"gill-color, stalk-surface-above-ring",1.0,0.0,True
+Decision Tree,91,4,False,"gill-color, stalk-surface-above-ring, odor",0.9798363671591815,0.0029637834328914486,False
+Decision Tree,92,4,False,"gill-color, stalk-surface-above-ring, spore-print-color",0.9896747499816623,0.002211248833620915,False
+Decision Tree,93,4,False,"gill-color, stalk-surface-above-ring, ring-type",0.9987199975463212,0.0009612804775641835,False
+Decision Tree,94,4,False,"gill-color, stalk-surface-above-ring, stalk-surface-below-ring",0.9943961521494286,0.0016817065937984577,False
+Decision Tree,95,4,False,"gill-color, stalk-surface-above-ring, gill-size",0.9987199975463212,0.0009612804775641835,False
+Decision Tree,96,5,False,"gill-color, stalk-surface-above-ring",1.0,0.0,False
+Decision Tree,97,4,False,"gill-color, stalk-surface-above-ring, odor",0.9798363671591815,0.0029637834328914486,False
+Decision Tree,98,4,False,"gill-color, stalk-surface-above-ring, spore-print-color",0.9896747499816623,0.002211248833620915,False
+Decision Tree,99,4,False,"gill-color, stalk-surface-above-ring, ring-type",0.9987199975463212,0.0009612804775641835,False
+Decision Tree,100,4,False,"gill-color, stalk-surface-above-ring, stalk-surface-below-ring",0.9943961521494286,0.0016817065937984577,False
+Decision Tree,101,4,False,"gill-color, stalk-surface-above-ring, gill-size",0.9987199975463212,0.0009612804775641835,False
+Decision Tree,102,5,False,"gill-color, stalk-surface-above-ring",1.0,0.0,False
+Decision Tree,103,4,False,"gill-color, stalk-surface-above-ring, odor",0.9798363671591815,0.0029637834328914486,False
+Decision Tree,104,4,False,"gill-color, stalk-surface-above-ring, spore-print-color",0.9896747499816623,0.002211248833620915,False
+Decision Tree,105,4,False,"gill-color, stalk-surface-above-ring, ring-type",0.9987199975463212,0.0009612804775641835,False
+Decision Tree,106,4,False,"gill-color, stalk-surface-above-ring, stalk-surface-below-ring",0.9943961521494286,0.0016817065937984577,False
+Decision Tree,107,4,False,"gill-color, stalk-surface-above-ring, gill-size",0.9987199975463212,0.0009612804775641835,False
+Random Forest,0,6,False,,0.99146179052491,0.0024486669717809387,False
+Random Forest,1,6,True,,0.99146179052491,0.0024486669717809387,False
+Random Forest,2,7,False,,0.9916255788084953,0.002329968520406132,False
+Random Forest,3,7,True,,0.9916255788084953,0.002329968520406132,False
+Random Forest,4,8,False,,0.9927609539205958,0.0026599355616163554,False
+Random Forest,5,8,True,,0.9927609539205958,0.0026599355616163554,False
+Random Forest,6,9,False,,0.9924378601920942,0.0018250733303161147,False
+Random Forest,7,9,True,,0.9924378601920942,0.0018250733303161147,False
+Random Forest,8,10,False,,0.9924378601920942,0.0018250733303161147,False
+Random Forest,9,10,True,,0.9924378601920942,0.0018250733303161147,False
+Random Forest,10,21,False,,0.9953413168292233,0.0026733862612957062,False
+Random Forest,11,21,True,,0.9972716387673163,0.0024703531637224507,False
+Random Forest,12,6,False,,0.99146179052491,0.0024486669717809387,False
+Random Forest,13,6,True,,0.99146179052491,0.0024486669717809387,False
+Random Forest,14,7,False,,0.9924378601920942,0.0018250733303161147,False
+Random Forest,15,7,True,,0.9924378601920942,0.0018250733303161147,False
+Random Forest,16,8,False,,0.9924378601920942,0.0018250733303161147,False
+Random Forest,17,8,True,,0.9924378601920942,0.0018250733303161147,False
+Random Forest,18,9,False,,0.9903282628744486,0.0017815381499816565,False
+Random Forest,19,9,True,,0.9903282628744486,0.0017815381499816565,False
+Random Forest,20,10,False,,0.9924378601920942,0.0018250733303161147,False
+Random Forest,21,10,True,,0.9924378601920942,0.0018250733303161147,False
+Random Forest,22,21,False,,0.996146625453689,0.0026128676484461102,False
+Random Forest,23,21,True,,0.9956680388875739,0.0018807352543110136,False
+Random Forest,24,6,False,,0.9913001165416576,0.002327183186970226,False
+Random Forest,25,6,True,,0.9913001165416576,0.002327183186970226,False
+Random Forest,26,7,False,,0.9924378601920942,0.0018250733303161147,False
+Random Forest,27,7,True,,0.9924378601920942,0.0018250733303161147,False
+Random Forest,28,8,False,,0.9927609539205958,0.0026599355616163554,False
+Random Forest,29,8,True,,0.9927609539205958,0.0026599355616163554,False
+Random Forest,30,9,False,,0.9921116316236436,0.0022664338096362933,False
+Random Forest,31,9,True,,0.9921116316236436,0.0022664338096362933,False
+Random Forest,32,10,False,,0.9924378601920942,0.0018250733303161147,False
+Random Forest,33,10,True,,0.9924378601920942,0.0018250733303161147,False
+Random Forest,34,21,False,,0.9943662910465921,0.003728245762755295,False
+Random Forest,35,21,True,,0.9961468659302148,0.002568909705991246,False
+Random Forest,36,6,False,,0.9913001165416576,0.002327183186970226,False
+Random Forest,37,6,True,,0.9913001165416576,0.002327183186970226,False
+Random Forest,38,7,False,,0.9924378601920942,0.0018250733303161147,False
+Random Forest,39,7,True,,0.9924378601920942,0.0018250733303161147,False
+Random Forest,40,8,False,,0.9924378601920942,0.0018250733303161147,False
+Random Forest,41,8,True,,0.9924378601920942,0.0018250733303161147,False
+Random Forest,42,9,False,,0.9904896775570062,0.002080306955144725,False
+Random Forest,43,9,True,,0.9904896775570062,0.002080306955144725,False
+Random Forest,44,10,False,,0.9924378601920942,0.0018250733303161147,False
+Random Forest,45,10,True,,0.9924378601920942,0.0018250733303161147,False
+Random Forest,46,21,False,,0.9954980994077784,0.0033263495351045125,False
+Random Forest,47,21,True,,0.9951835336692367,0.002102034578482047,False
+Random Forest,48,6,False,,0.9987199975463212,0.0009612804775641835,False
+Random Forest,49,6,True,,0.9987199975463212,0.0009612804775641835,False
+Random Forest,50,7,False,,1.0,0.0,False
+Random Forest,51,7,True,,1.0,0.0,False
+Random Forest,52,8,False,,1.0,0.0,False
+Random Forest,53,8,True,,1.0,0.0,False
+Random Forest,54,9,False,,0.9995196156925541,0.0009607686148918938,False
+Random Forest,55,9,True,,0.9995196156925541,0.0009607686148918938,False
+Random Forest,56,10,False,,1.0,0.0,False
+Random Forest,57,10,True,,1.0,0.0,False
+Random Forest,58,21,False,,0.9995206388759703,0.00039139699609022096,False
+Random Forest,59,21,True,,0.9993605109782884,0.0005985290647844574,False
+Random Forest,60,6,False,,0.9987199975463212,0.0009612804775641835,False
+Random Forest,61,6,True,,0.9987199975463212,0.0009612804775641835,False
+Random Forest,62,7,False,,1.0,0.0,False
+Random Forest,63,7,True,,1.0,0.0,False
+Random Forest,64,8,False,,1.0,0.0,False
+Random Forest,65,8,True,,1.0,0.0,False
+Random Forest,66,9,False,,1.0,0.0,False
+Random Forest,67,9,True,,1.0,0.0,False
+Random Forest,68,10,False,,1.0,0.0,False
+Random Forest,69,10,True,,1.0,0.0,False
+Random Forest,70,21,False,,0.9995206388759703,0.00039139699609022096,False
+Random Forest,71,21,True,,0.9995206388759703,0.00039139699609022096,False
+Random Forest,72,6,False,,0.9987199975463212,0.0009612804775641835,False
+Random Forest,73,6,True,,0.9987199975463212,0.0009612804775641835,False
+Random Forest,74,7,False,,1.0,0.0,False
+Random Forest,75,7,True,,1.0,0.0,False
+Random Forest,76,8,False,,1.0,0.0,False
+Random Forest,77,8,True,,1.0,0.0,False
+Random Forest,78,9,False,,0.9988796144657147,0.0010861928409590241,False
+Random Forest,79,9,True,,0.9988796144657147,0.0010861928409590241,False
+Random Forest,80,10,False,,1.0,0.0,False
+Random Forest,81,10,True,,1.0,0.0,False
+Random Forest,82,21,False,,1.0,0.0,False
+Random Forest,83,21,True,,1.0,0.0,False
+Random Forest,84,6,False,,0.9987199975463212,0.0009612804775641835,False
+Random Forest,85,6,True,,0.9987199975463212,0.0009612804775641835,False
+Random Forest,86,7,False,,1.0,0.0,False
+Random Forest,87,7,True,,1.0,0.0,False
+Random Forest,88,8,False,,0.9995196156925541,0.0009607686148918938,False
+Random Forest,89,8,True,,0.9995196156925541,0.0009607686148918938,False
+Random Forest,90,9,False,,0.9990392313851082,0.0011766964336828475,False
+Random Forest,91,9,True,,0.9990392313851082,0.0011766964336828475,False
+Random Forest,92,10,False,,1.0,0.0,False
+Random Forest,93,10,True,,1.0,0.0,False
+Random Forest,94,21,False,,1.0,0.0,False
+Random Forest,95,21,True,,1.0,0.0,False
+Random Forest,96,6,False,,0.9987199975463212,0.0009612804775641835,False
+Random Forest,97,6,True,,0.9987199975463212,0.0009612804775641835,False
+Random Forest,98,7,False,,1.0,0.0,False
+Random Forest,99,7,True,,1.0,0.0,False
+Random Forest,100,8,False,,1.0,0.0,False
+Random Forest,101,8,True,,1.0,0.0,False
+Random Forest,102,9,False,,1.0,0.0,False
+Random Forest,103,9,True,,1.0,0.0,False
+Random Forest,104,10,False,,1.0,0.0,False
+Random Forest,105,10,True,,1.0,0.0,False
+Random Forest,106,21,False,,1.0,0.0,False
+Random Forest,107,21,True,,1.0,0.0,False
+Random Forest,108,6,False,,0.9987199975463212,0.0009612804775641835,False
+Random Forest,109,6,True,,0.9987199975463212,0.0009612804775641835,False
+Random Forest,110,7,False,,1.0,0.0,False
+Random Forest,111,7,True,,1.0,0.0,False
+Random Forest,112,8,False,,1.0,0.0,False
+Random Forest,113,8,True,,1.0,0.0,False
+Random Forest,114,9,False,,1.0,0.0,False
+Random Forest,115,9,True,,1.0,0.0,False
+Random Forest,116,10,False,,1.0,0.0,False
+Random Forest,117,10,True,,1.0,0.0,False
+Random Forest,118,21,False,,1.0,0.0,False
+Random Forest,119,21,True,,1.0,0.0,False
+Random Forest,120,6,False,,0.9987199975463212,0.0009612804775641835,False
+Random Forest,121,6,True,,0.9987199975463212,0.0009612804775641835,False
+Random Forest,122,7,False,,1.0,0.0,False
+Random Forest,123,7,True,,1.0,0.0,False
+Random Forest,124,8,False,,1.0,0.0,False
+Random Forest,125,8,True,,1.0,0.0,False
+Random Forest,126,9,False,,1.0,0.0,False
+Random Forest,127,9,True,,1.0,0.0,False
+Random Forest,128,10,False,,1.0,0.0,False
+Random Forest,129,10,True,,1.0,0.0,False
+Random Forest,130,21,False,,1.0,0.0,False
+Random Forest,131,21,True,,1.0,0.0,False
+Random Forest,132,6,False,,0.9987199975463212,0.0009612804775641835,False
+Random Forest,133,6,True,,0.9987199975463212,0.0009612804775641835,False
+Random Forest,134,7,False,,1.0,0.0,False
+Random Forest,135,7,True,,1.0,0.0,False
+Random Forest,136,8,False,,1.0,0.0,False
+Random Forest,137,8,True,,1.0,0.0,False
+Random Forest,138,9,False,,1.0,0.0,False
+Random Forest,139,9,True,,1.0,0.0,False
+Random Forest,140,10,False,,1.0,0.0,False
+Random Forest,141,10,True,,1.0,0.0,False
+Random Forest,142,21,False,,1.0,0.0,False
+Random Forest,143,21,True,,1.0,0.0,False
+Random Forest,144,6,False,,0.9987199975463212,0.0009612804775641835,False
+Random Forest,145,6,True,,0.9987199975463212,0.0009612804775641835,False
+Random Forest,146,7,False,,1.0,0.0,False
+Random Forest,147,7,True,,1.0,0.0,False
+Random Forest,148,8,False,,1.0,0.0,False
+Random Forest,149,8,True,,1.0,0.0,False
+Random Forest,150,9,False,,1.0,0.0,False
+Random Forest,151,9,True,,1.0,0.0,False
+Random Forest,152,10,False,,1.0,0.0,False
+Random Forest,153,10,True,,1.0,0.0,False
+Random Forest,154,21,False,,1.0,0.0,False
+Random Forest,155,21,True,,1.0,0.0,False
+Random Forest,156,6,False,,0.9987199975463212,0.0009612804775641835,False
+Random Forest,157,6,True,,0.9987199975463212,0.0009612804775641835,False
+Random Forest,158,7,False,,1.0,0.0,False
+Random Forest,159,7,True,,1.0,0.0,False
+Random Forest,160,8,False,,1.0,0.0,False
+Random Forest,161,8,True,,1.0,0.0,False
+Random Forest,162,9,False,,1.0,0.0,False
+Random Forest,163,9,True,,1.0,0.0,False
+Random Forest,164,10,False,,1.0,0.0,False
+Random Forest,165,10,True,,1.0,0.0,False
+Random Forest,166,21,False,,1.0,0.0,False
+Random Forest,167,21,True,,1.0,0.0,False
+Random Forest,168,6,False,,0.9987199975463212,0.0009612804775641835,False
+Random Forest,169,6,True,,0.9987199975463212,0.0009612804775641835,False
+Random Forest,170,7,False,,1.0,0.0,False
+Random Forest,171,7,True,,1.0,0.0,False
+Random Forest,172,8,False,,1.0,0.0,False
+Random Forest,173,8,True,,1.0,0.0,False
+Random Forest,174,9,False,,1.0,0.0,False
+Random Forest,175,9,True,,1.0,0.0,False
+Random Forest,176,10,False,,1.0,0.0,False
+Random Forest,177,10,True,,1.0,0.0,False
+Random Forest,178,21,False,,1.0,0.0,False
+Random Forest,179,21,True,,1.0,0.0,False
+Random Forest,180,6,False,,0.9987199975463212,0.0009612804775641835,False
+Random Forest,181,6,True,,0.9987199975463212,0.0009612804775641835,False
+Random Forest,182,7,False,,1.0,0.0,False
+Random Forest,183,7,True,,1.0,0.0,False
+Random Forest,184,8,False,,1.0,0.0,False
+Random Forest,185,8,True,,1.0,0.0,False
+Random Forest,186,9,False,,1.0,0.0,False
+Random Forest,187,9,True,,1.0,0.0,False
+Random Forest,188,10,False,,1.0,0.0,False
+Random Forest,189,10,True,,1.0,0.0,False
+Random Forest,190,21,False,,1.0,0.0,False
+Random Forest,191,21,True,,1.0,0.0,False
+Random Forest,192,5,False,"gill-color, stalk-surface-above-ring",0.9927513872690892,0.004049042822577726,False
+Random Forest,193,4,False,"gill-color, stalk-surface-above-ring, odor",0.9798363671591815,0.0029637834328914486,False
+Random Forest,194,4,False,"gill-color, stalk-surface-above-ring, spore-print-color",0.9896747499816623,0.002211248833620915,False
+Random Forest,195,4,False,"gill-color, stalk-surface-above-ring, ring-type",0.9896747499816623,0.002211248833620915,False
+Random Forest,196,4,False,"gill-color, stalk-surface-above-ring, stalk-surface-below-ring",0.9949213787926299,0.001703532238855395,False
+Random Forest,197,4,False,"gill-color, stalk-surface-above-ring, gill-size",0.9896747499816623,0.002211248833620915,False
+Random Forest,198,5,False,"gill-color, stalk-surface-above-ring",0.9938740817358092,0.00501079289077345,False
+Random Forest,199,4,False,"gill-color, stalk-surface-above-ring, odor",0.9798363671591815,0.0029637834328914486,False
+Random Forest,200,4,False,"gill-color, stalk-surface-above-ring, spore-print-color",0.9896747499816623,0.002211248833620915,False
+Random Forest,201,4,False,"gill-color, stalk-surface-above-ring, ring-type",0.9896747499816623,0.002211248833620915,False
+Random Forest,202,4,False,"gill-color, stalk-surface-above-ring, stalk-surface-below-ring",0.9949213787926299,0.001703532238855395,False
+Random Forest,203,4,False,"gill-color, stalk-surface-above-ring, gill-size",0.9987199975463212,0.0009612804775641835,False
+Random Forest,204,5,False,"gill-color, stalk-surface-above-ring",0.9927513872690892,0.004049042822577726,False
+Random Forest,205,4,False,"gill-color, stalk-surface-above-ring, odor",0.9798363671591815,0.0029637834328914486,False
+Random Forest,206,4,False,"gill-color, stalk-surface-above-ring, spore-print-color",0.9896747499816623,0.002211248833620915,False
+Random Forest,207,4,False,"gill-color, stalk-surface-above-ring, ring-type",0.9896747499816623,0.002211248833620915,False
+Random Forest,208,4,False,"gill-color, stalk-surface-above-ring, stalk-surface-below-ring",0.9949213787926299,0.001703532238855395,False
+Random Forest,209,4,False,"gill-color, stalk-surface-above-ring, gill-size",0.9896747499816623,0.002211248833620915,False
+Random Forest,210,5,False,"gill-color, stalk-surface-above-ring",0.9933936974283633,0.004488377403913302,False
+Random Forest,211,4,False,"gill-color, stalk-surface-above-ring, odor",0.9798363671591815,0.0029637834328914486,False
+Random Forest,212,4,False,"gill-color, stalk-surface-above-ring, spore-print-color",0.9896747499816623,0.002211248833620915,False
+Random Forest,213,4,False,"gill-color, stalk-surface-above-ring, ring-type",0.9896747499816623,0.002211248833620915,False
+Random Forest,214,4,False,"gill-color, stalk-surface-above-ring, stalk-surface-below-ring",0.9949213787926299,0.001703532238855395,False
+Random Forest,215,4,False,"gill-color, stalk-surface-above-ring, gill-size",0.9987199975463212,0.0009612804775641835,False
+Random Forest,216,5,False,"gill-color, stalk-surface-above-ring",1.0,0.0,False
+Random Forest,217,4,False,"gill-color, stalk-surface-above-ring, odor",0.9798363671591815,0.0029637834328914486,False
+Random Forest,218,4,False,"gill-color, stalk-surface-above-ring, spore-print-color",0.9896747499816623,0.002211248833620915,False
+Random Forest,219,4,False,"gill-color, stalk-surface-above-ring, ring-type",0.9987199975463212,0.0009612804775641835,False
+Random Forest,220,4,False,"gill-color, stalk-surface-above-ring, stalk-surface-below-ring",0.9943961521494286,0.0016817065937984577,False
+Random Forest,221,4,False,"gill-color, stalk-surface-above-ring, gill-size",0.9987199975463212,0.0009612804775641835,False
+Random Forest,222,5,False,"gill-color, stalk-surface-above-ring",1.0,0.0,False
+Random Forest,223,4,False,"gill-color, stalk-surface-above-ring, odor",0.9798363671591815,0.0029637834328914486,False
+Random Forest,224,4,False,"gill-color, stalk-surface-above-ring, spore-print-color",0.9896747499816623,0.002211248833620915,False
+Random Forest,225,4,False,"gill-color, stalk-surface-above-ring, ring-type",0.9987199975463212,0.0009612804775641835,False
+Random Forest,226,4,False,"gill-color, stalk-surface-above-ring, stalk-surface-below-ring",0.9943961521494286,0.0016817065937984577,False
+Random Forest,227,4,False,"gill-color, stalk-surface-above-ring, gill-size",0.9987199975463212,0.0009612804775641835,False
+Random Forest,228,5,False,"gill-color, stalk-surface-above-ring",1.0,0.0,True
+Random Forest,229,4,False,"gill-color, stalk-surface-above-ring, odor",0.9798363671591815,0.0029637834328914486,False
+Random Forest,230,4,False,"gill-color, stalk-surface-above-ring, spore-print-color",0.9896747499816623,0.002211248833620915,False
+Random Forest,231,4,False,"gill-color, stalk-surface-above-ring, ring-type",0.9987199975463212,0.0009612804775641835,False
+Random Forest,232,4,False,"gill-color, stalk-surface-above-ring, stalk-surface-below-ring",0.9943961521494286,0.0016817065937984577,False
+Random Forest,233,4,False,"gill-color, stalk-surface-above-ring, gill-size",0.9987199975463212,0.0009612804775641835,False
+Random Forest,234,5,False,"gill-color, stalk-surface-above-ring",1.0,0.0,False
+Random Forest,235,4,False,"gill-color, stalk-surface-above-ring, odor",0.9798363671591815,0.0029637834328914486,False
+Random Forest,236,4,False,"gill-color, stalk-surface-above-ring, spore-print-color",0.9896747499816623,0.002211248833620915,False
+Random Forest,237,4,False,"gill-color, stalk-surface-above-ring, ring-type",0.9987199975463212,0.0009612804775641835,False
+Random Forest,238,4,False,"gill-color, stalk-surface-above-ring, stalk-surface-below-ring",0.9943961521494286,0.0016817065937984577,False
+Random Forest,239,4,False,"gill-color, stalk-surface-above-ring, gill-size",0.9987199975463212,0.0009612804775641835,False
+Random Forest,240,5,False,"gill-color, stalk-surface-above-ring",1.0,0.0,False
+Random Forest,241,4,False,"gill-color, stalk-surface-above-ring, odor",0.9798363671591815,0.0029637834328914486,False
+Random Forest,242,4,False,"gill-color, stalk-surface-above-ring, spore-print-color",0.9896747499816623,0.002211248833620915,False
+Random Forest,243,4,False,"gill-color, stalk-surface-above-ring, ring-type",0.9987199975463212,0.0009612804775641835,False
+Random Forest,244,4,False,"gill-color, stalk-surface-above-ring, stalk-surface-below-ring",0.9943961521494286,0.0016817065937984577,False
+Random Forest,245,4,False,"gill-color, stalk-surface-above-ring, gill-size",0.9987199975463212,0.0009612804775641835,False
+Random Forest,246,5,False,"gill-color, stalk-surface-above-ring",1.0,0.0,False
+Random Forest,247,4,False,"gill-color, stalk-surface-above-ring, odor",0.9798363671591815,0.0029637834328914486,False
+Random Forest,248,4,False,"gill-color, stalk-surface-above-ring, spore-print-color",0.9896747499816623,0.002211248833620915,False
+Random Forest,249,4,False,"gill-color, stalk-surface-above-ring, ring-type",0.9987199975463212,0.0009612804775641835,False
+Random Forest,250,4,False,"gill-color, stalk-surface-above-ring, stalk-surface-below-ring",0.9943961521494286,0.0016817065937984577,False
+Random Forest,251,4,False,"gill-color, stalk-surface-above-ring, gill-size",0.9987199975463212,0.0009612804775641835,False
+Random Forest,252,5,False,"gill-color, stalk-surface-above-ring",1.0,0.0,False
+Random Forest,253,4,False,"gill-color, stalk-surface-above-ring, odor",0.9798363671591815,0.0029637834328914486,False
+Random Forest,254,4,False,"gill-color, stalk-surface-above-ring, spore-print-color",0.9896747499816623,0.002211248833620915,False
+Random Forest,255,4,False,"gill-color, stalk-surface-above-ring, ring-type",0.9987199975463212,0.0009612804775641835,False
+Random Forest,256,4,False,"gill-color, stalk-surface-above-ring, stalk-surface-below-ring",0.9943961521494286,0.0016817065937984577,False
+Random Forest,257,4,False,"gill-color, stalk-surface-above-ring, gill-size",0.9987199975463212,0.0009612804775641835,False
+Random Forest,258,5,False,"gill-color, stalk-surface-above-ring",1.0,0.0,False
+Random Forest,259,4,False,"gill-color, stalk-surface-above-ring, odor",0.9798363671591815,0.0029637834328914486,False
+Random Forest,260,4,False,"gill-color, stalk-surface-above-ring, spore-print-color",0.9896747499816623,0.002211248833620915,False
+Random Forest,261,4,False,"gill-color, stalk-surface-above-ring, ring-type",0.9987199975463212,0.0009612804775641835,False
+Random Forest,262,4,False,"gill-color, stalk-surface-above-ring, stalk-surface-below-ring",0.9943961521494286,0.0016817065937984577,False
+Random Forest,263,4,False,"gill-color, stalk-surface-above-ring, gill-size",0.9987199975463212,0.0009612804775641835,False
+Random Forest,264,5,False,"gill-color, stalk-surface-above-ring",1.0,0.0,False
+Random Forest,265,4,False,"gill-color, stalk-surface-above-ring, odor",0.9798363671591815,0.0029637834328914486,False
+Random Forest,266,4,False,"gill-color, stalk-surface-above-ring, spore-print-color",0.9896747499816623,0.002211248833620915,False
+Random Forest,267,4,False,"gill-color, stalk-surface-above-ring, ring-type",0.9987199975463212,0.0009612804775641835,False
+Random Forest,268,4,False,"gill-color, stalk-surface-above-ring, stalk-surface-below-ring",0.9943961521494286,0.0016817065937984577,False
+Random Forest,269,4,False,"gill-color, stalk-surface-above-ring, gill-size",0.9987199975463212,0.0009612804775641835,False
+Random Forest,270,5,False,"gill-color, stalk-surface-above-ring",1.0,0.0,False
+Random Forest,271,4,False,"gill-color, stalk-surface-above-ring, odor",0.9798363671591815,0.0029637834328914486,False
+Random Forest,272,4,False,"gill-color, stalk-surface-above-ring, spore-print-color",0.9896747499816623,0.002211248833620915,False
+Random Forest,273,4,False,"gill-color, stalk-surface-above-ring, ring-type",0.9987199975463212,0.0009612804775641835,False
+Random Forest,274,4,False,"gill-color, stalk-surface-above-ring, stalk-surface-below-ring",0.9943961521494286,0.0016817065937984577,False
+Random Forest,275,4,False,"gill-color, stalk-surface-above-ring, gill-size",0.9987199975463212,0.0009612804775641835,False
+Random Forest,276,5,False,"gill-color, stalk-surface-above-ring",1.0,0.0,False
+Random Forest,277,4,False,"gill-color, stalk-surface-above-ring, odor",0.9798363671591815,0.0029637834328914486,False
+Random Forest,278,4,False,"gill-color, stalk-surface-above-ring, spore-print-color",0.9896747499816623,0.002211248833620915,False
+Random Forest,279,4,False,"gill-color, stalk-surface-above-ring, ring-type",0.9987199975463212,0.0009612804775641835,False
+Random Forest,280,4,False,"gill-color, stalk-surface-above-ring, stalk-surface-below-ring",0.9943961521494286,0.0016817065937984577,False
+Random Forest,281,4,False,"gill-color, stalk-surface-above-ring, gill-size",0.9987199975463212,0.0009612804775641835,False
+Random Forest,282,5,False,"gill-color, stalk-surface-above-ring",1.0,0.0,False
+Random Forest,283,4,False,"gill-color, stalk-surface-above-ring, odor",0.9798363671591815,0.0029637834328914486,False
+Random Forest,284,4,False,"gill-color, stalk-surface-above-ring, spore-print-color",0.9896747499816623,0.002211248833620915,False
+Random Forest,285,4,False,"gill-color, stalk-surface-above-ring, ring-type",0.9987199975463212,0.0009612804775641835,False
+Random Forest,286,4,False,"gill-color, stalk-surface-above-ring, stalk-surface-below-ring",0.9943961521494286,0.0016817065937984577,False
+Random Forest,287,4,False,"gill-color, stalk-surface-above-ring, gill-size",0.9987199975463212,0.0009612804775641835,False
+AdaBoost,0,6,False,,0.9229731339025766,0.005467264274906333,False
+AdaBoost,1,6,True,,0.9229731339025766,0.005467264274906333,False
+AdaBoost,2,7,False,,0.9729364301455259,0.003172435838608611,False
+AdaBoost,3,7,True,,0.9729364301455259,0.003172435838608611,False
+AdaBoost,4,8,False,,0.9729364301455259,0.003172435838608611,False
+AdaBoost,5,8,True,,0.9729364301455259,0.003172435838608611,False
+AdaBoost,6,9,False,,0.9729364301455259,0.003172435838608611,False
+AdaBoost,7,9,True,,0.9729364301455259,0.003172435838608611,False
+AdaBoost,8,10,False,,0.9729364301455259,0.003172435838608611,False
+AdaBoost,9,10,True,,0.9729364301455259,0.003172435838608611,False
+AdaBoost,10,21,False,,0.9729364301455259,0.003172435838608611,False
+AdaBoost,11,21,True,,0.9729364301455259,0.003172435838608611,False
+AdaBoost,12,6,False,,0.9847580237525365,0.0033756015971551094,False
+AdaBoost,13,6,True,,0.9847580237525365,0.0033756015971551094,False
+AdaBoost,14,7,False,,0.9702179312867054,0.0038663064885023934,False
+AdaBoost,15,7,True,,0.9702179312867054,0.0038663064885023934,False
+AdaBoost,16,8,False,,0.9702179312867054,0.0038663064885023934,False
+AdaBoost,17,8,True,,0.9702179312867054,0.0038663064885023934,False
+AdaBoost,18,9,False,,0.9702179312867054,0.0038663064885023934,False
+AdaBoost,19,9,True,,0.9702179312867054,0.0038663064885023934,False
+AdaBoost,20,10,False,,0.9702179312867054,0.0038663064885023934,False
+AdaBoost,21,10,True,,0.9702179312867054,0.0038663064885023934,False
+AdaBoost,22,21,False,,0.9725586017486977,0.003315094937087354,False
+AdaBoost,23,21,True,,0.9725586017486977,0.003315094937087354,False
+AdaBoost,24,6,False,,0.9858879352569613,0.0055630226578511546,False
+AdaBoost,25,6,True,,0.9858879352569613,0.0055630226578511546,False
+AdaBoost,26,7,False,,0.9922733402410866,0.002922326149550442,False
+AdaBoost,27,7,True,,0.9922733402410866,0.002922326149550442,False
+AdaBoost,28,8,False,,0.9922733402410866,0.002922326149550442,False
+AdaBoost,29,8,True,,0.9922733402410866,0.002922326149550442,False
+AdaBoost,30,9,False,,0.9922733402410866,0.002922326149550442,False
+AdaBoost,31,9,True,,0.9922733402410866,0.002922326149550442,False
+AdaBoost,32,10,False,,0.9922733402410866,0.002922326149550442,False
+AdaBoost,33,10,True,,0.9922733402410866,0.002922326149550442,False
+AdaBoost,34,21,False,,0.9958368805171082,0.0016369989726213847,False
+AdaBoost,35,21,True,,0.9958368805171082,0.0016369989726213847,False
+AdaBoost,36,6,False,,0.9946972252903705,0.0028629383347727336,False
+AdaBoost,37,6,True,,0.9946972252903705,0.0028629383347727336,False
+AdaBoost,38,7,False,,0.9987199975463212,0.0009612804775641835,False
+AdaBoost,39,7,True,,0.9987199975463212,0.0009612804775641835,False
+AdaBoost,40,8,False,,0.9987199975463212,0.0009612804775641835,False
+AdaBoost,41,8,True,,0.9987199975463212,0.0009612804775641835,False
+AdaBoost,42,9,False,,0.9987199975463212,0.0009612804775641835,False
+AdaBoost,43,9,True,,0.9987199975463212,0.0009612804775641835,False
+AdaBoost,44,10,False,,0.9987199975463212,0.0009612804775641835,False
+AdaBoost,45,10,True,,0.9987199975463212,0.0009612804775641835,False
+AdaBoost,46,21,False,,0.9987199975463212,0.0009612804775641835,False
+AdaBoost,47,21,True,,0.9987199975463212,0.0009612804775641835,False
+AdaBoost,48,6,False,,0.9975972979418399,0.0014378262754934559,False
+AdaBoost,49,6,True,,0.9975972979418399,0.0014378262754934559,False
+AdaBoost,50,7,False,,0.998237299991809,0.001714392915599031,False
+AdaBoost,51,7,True,,0.998237299991809,0.001714392915599031,False
+AdaBoost,52,8,False,,0.998237299991809,0.001714392915599031,False
+AdaBoost,53,8,True,,0.998237299991809,0.001714392915599031,False
+AdaBoost,54,9,False,,0.998237299991809,0.001714392915599031,False
+AdaBoost,55,9,True,,0.998237299991809,0.001714392915599031,False
+AdaBoost,56,10,False,,0.998237299991809,0.001714392915599031,False
+AdaBoost,57,10,True,,0.998237299991809,0.001714392915599031,False
+AdaBoost,58,21,False,,0.9971209998458116,0.002402092105667388,False
+AdaBoost,59,21,True,,0.9971209998458116,0.002402092105667388,False
+AdaBoost,60,6,False,,0.9971225271558162,0.001084123949577652,False
+AdaBoost,61,6,True,,0.9971225271558162,0.001084123949577652,False
+AdaBoost,62,7,False,,1.0,0.0,False
+AdaBoost,63,7,True,,1.0,0.0,False
+AdaBoost,64,8,False,,1.0,0.0,False
+AdaBoost,65,8,True,,1.0,0.0,False
+AdaBoost,66,9,False,,1.0,0.0,False
+AdaBoost,67,9,True,,1.0,0.0,False
+AdaBoost,68,10,False,,1.0,0.0,False
+AdaBoost,69,10,True,,1.0,0.0,False
+AdaBoost,70,21,False,,1.0,0.0,False
+AdaBoost,71,21,True,,1.0,0.0,False
+AdaBoost,72,6,False,,0.9847580237525365,0.0033756015971551094,False
+AdaBoost,73,6,True,,0.9847580237525365,0.0033756015971551094,False
+AdaBoost,74,7,False,,0.988530445954046,0.002700747074548964,False
+AdaBoost,75,7,True,,0.988530445954046,0.002700747074548964,False
+AdaBoost,76,8,False,,0.988530445954046,0.002700747074548964,False
+AdaBoost,77,8,True,,0.988530445954046,0.002700747074548964,False
+AdaBoost,78,9,False,,0.988530445954046,0.002700747074548964,False
+AdaBoost,79,9,True,,0.988530445954046,0.002700747074548964,False
+AdaBoost,80,10,False,,0.988530445954046,0.002700747074548964,False
+AdaBoost,81,10,True,,0.988530445954046,0.002700747074548964,False
+AdaBoost,82,21,False,,0.9875454274260361,0.003525615099659192,False
+AdaBoost,83,21,True,,0.9875454274260361,0.003525615099659192,False
+AdaBoost,84,6,False,,0.9938947859888312,0.001883049018147801,False
+AdaBoost,85,6,True,,0.9938947859888312,0.001883049018147801,False
+AdaBoost,86,7,False,,0.998237299991809,0.001714392915599031,False
+AdaBoost,87,7,True,,0.998237299991809,0.001714392915599031,False
+AdaBoost,88,8,False,,0.998237299991809,0.001714392915599031,False
+AdaBoost,89,8,True,,0.998237299991809,0.001714392915599031,False
+AdaBoost,90,9,False,,0.998237299991809,0.001714392915599031,False
+AdaBoost,91,9,True,,0.998237299991809,0.001714392915599031,False
+AdaBoost,92,10,False,,0.998237299991809,0.001714392915599031,False
+AdaBoost,93,10,True,,0.998237299991809,0.001714392915599031,False
+AdaBoost,94,21,False,,0.9987199975463212,0.0009612804775641835,False
+AdaBoost,95,21,True,,0.9987199975463212,0.0009612804775641835,False
+AdaBoost,96,6,False,,0.9980789684167899,0.001201682020064151,False
+AdaBoost,97,6,True,,0.9980789684167899,0.001201682020064151,False
+AdaBoost,98,7,False,,0.9988796144657147,0.0010861928409590241,False
+AdaBoost,99,7,True,,0.9988796144657147,0.0010861928409590241,False
+AdaBoost,100,8,False,,0.9990392313851082,0.0011766964336828475,False
+AdaBoost,101,8,True,,0.9990392313851082,0.0011766964336828475,False
+AdaBoost,102,9,False,,0.9995196156925541,0.0009607686148918938,False
+AdaBoost,103,9,True,,0.9995196156925541,0.0009607686148918938,False
+AdaBoost,104,10,False,,0.9995196156925541,0.0009607686148918938,False
+AdaBoost,105,10,True,,0.9995196156925541,0.0009607686148918938,False
+AdaBoost,106,21,False,,1.0,0.0,False
+AdaBoost,107,21,True,,1.0,0.0,False
+AdaBoost,108,6,False,,0.9982385853361834,0.0013800118109438628,False
+AdaBoost,109,6,True,,0.9982385853361834,0.0013800118109438628,False
+AdaBoost,110,7,False,,1.0,0.0,False
+AdaBoost,111,7,True,,1.0,0.0,False
+AdaBoost,112,8,False,,1.0,0.0,False
+AdaBoost,113,8,True,,1.0,0.0,False
+AdaBoost,114,9,False,,1.0,0.0,False
+AdaBoost,115,9,True,,1.0,0.0,False
+AdaBoost,116,10,False,,1.0,0.0,False
+AdaBoost,117,10,True,,1.0,0.0,False
+AdaBoost,118,21,False,,1.0,0.0,False
+AdaBoost,119,21,True,,1.0,0.0,False
+AdaBoost,120,6,False,,0.9987199975463212,0.0009612804775641835,False
+AdaBoost,121,6,True,,0.9987199975463212,0.0009612804775641835,False
+AdaBoost,122,7,False,,1.0,0.0,False
+AdaBoost,123,7,True,,1.0,0.0,False
+AdaBoost,124,8,False,,1.0,0.0,False
+AdaBoost,125,8,True,,1.0,0.0,False
+AdaBoost,126,9,False,,1.0,0.0,False
+AdaBoost,127,9,True,,1.0,0.0,False
+AdaBoost,128,10,False,,1.0,0.0,False
+AdaBoost,129,10,True,,1.0,0.0,False
+AdaBoost,130,21,False,,1.0,0.0,False
+AdaBoost,131,21,True,,1.0,0.0,False
+AdaBoost,132,6,False,,0.9987199975463212,0.0009612804775641835,False
+AdaBoost,133,6,True,,0.9987199975463212,0.0009612804775641835,False
+AdaBoost,134,7,False,,1.0,0.0,False
+AdaBoost,135,7,True,,1.0,0.0,False
+AdaBoost,136,8,False,,1.0,0.0,False
+AdaBoost,137,8,True,,1.0,0.0,False
+AdaBoost,138,9,False,,1.0,0.0,False
+AdaBoost,139,9,True,,1.0,0.0,False
+AdaBoost,140,10,False,,1.0,0.0,False
+AdaBoost,141,10,True,,1.0,0.0,False
+AdaBoost,142,21,False,,1.0,0.0,False
+AdaBoost,143,21,True,,1.0,0.0,False
+AdaBoost,144,5,False,"gill-color, stalk-surface-above-ring",0.9689671859556569,0.0041327020766316535,False
+AdaBoost,145,4,False,"gill-color, stalk-surface-above-ring, odor",0.8702926779391248,0.014357508299025264,False
+AdaBoost,146,4,False,"gill-color, stalk-surface-above-ring, spore-print-color",0.9689671859556569,0.0041327020766316535,False
+AdaBoost,147,4,False,"gill-color, stalk-surface-above-ring, ring-type",0.9689671859556569,0.0041327020766316535,False
+AdaBoost,148,4,False,"gill-color, stalk-surface-above-ring, stalk-surface-below-ring",0.9689671859556569,0.0041327020766316535,False
+AdaBoost,149,4,False,"gill-color, stalk-surface-above-ring, gill-size",0.9842807442457253,0.0024907685842090097,False
+AdaBoost,150,5,False,"gill-color, stalk-surface-above-ring",0.9748134028024685,0.004844673734641588,False
+AdaBoost,151,4,False,"gill-color, stalk-surface-above-ring, odor",0.912970545642799,0.008919638957674857,False
+AdaBoost,152,4,False,"gill-color, stalk-surface-above-ring, spore-print-color",0.9717776287082408,0.004202125807314093,False
+AdaBoost,153,4,False,"gill-color, stalk-surface-above-ring, ring-type",0.9736546013651834,0.005951004366554669,False
+AdaBoost,154,4,False,"gill-color, stalk-surface-above-ring, stalk-surface-below-ring",0.9748134028024685,0.004844673734641588,False
+AdaBoost,155,4,False,"gill-color, stalk-surface-above-ring, gill-size",0.9847580237525365,0.0033756015971551094,False
+AdaBoost,156,5,False,"gill-color, stalk-surface-above-ring",0.989012810480347,0.005666834299118216,False
+AdaBoost,157,4,False,"gill-color, stalk-surface-above-ring, odor",0.9530252630330034,0.005856199668410019,False
+AdaBoost,158,4,False,"gill-color, stalk-surface-above-ring, spore-print-color",0.9871289229816375,0.003351809260878549,False
+AdaBoost,159,4,False,"gill-color, stalk-surface-above-ring, ring-type",0.9938947859888312,0.001883049018147801,False
+AdaBoost,160,4,False,"gill-color, stalk-surface-above-ring, stalk-surface-below-ring",0.989012810480347,0.005666834299118216,False
+AdaBoost,161,4,False,"gill-color, stalk-surface-above-ring, gill-size",0.9858879352569613,0.0055630226578511546,False
+AdaBoost,162,5,False,"gill-color, stalk-surface-above-ring",0.9987199975463212,0.0009612804775641835,False
+AdaBoost,163,4,False,"gill-color, stalk-surface-above-ring, odor",0.9720274518786877,0.0033242588835112165,False
+AdaBoost,164,4,False,"gill-color, stalk-surface-above-ring, spore-print-color",0.9849688798893078,0.0033705678529830567,False
+AdaBoost,165,4,False,"gill-color, stalk-surface-above-ring, ring-type",0.9987199975463212,0.0009612804775641835,False
+AdaBoost,166,4,False,"gill-color, stalk-surface-above-ring, stalk-surface-below-ring",0.9938947859888312,0.001883049018147801,False
+AdaBoost,167,4,False,"gill-color, stalk-surface-above-ring, gill-size",0.9938947859888312,0.001883049018147801,False
+AdaBoost,168,5,False,"gill-color, stalk-surface-above-ring",0.9987199975463212,0.0009612804775641835,False
+AdaBoost,169,4,False,"gill-color, stalk-surface-above-ring, odor",0.9735437290410103,0.002909841044586001,False
+AdaBoost,170,4,False,"gill-color, stalk-surface-above-ring, spore-print-color",0.9847580237525365,0.0033756015971551094,False
+AdaBoost,171,4,False,"gill-color, stalk-surface-above-ring, ring-type",0.9987199975463212,0.0009612804775641835,False
+AdaBoost,172,4,False,"gill-color, stalk-surface-above-ring, stalk-surface-below-ring",0.9931305999524703,0.0019857406192919065,False
+AdaBoost,173,4,False,"gill-color, stalk-surface-above-ring, gill-size",0.9950247076395173,0.0020626188874499013,False
+AdaBoost,174,5,False,"gill-color, stalk-surface-above-ring",1.0,0.0,True
+AdaBoost,175,4,False,"gill-color, stalk-surface-above-ring, odor",0.9773888000434742,0.002552930663847978,False
+AdaBoost,176,4,False,"gill-color, stalk-surface-above-ring, spore-print-color",0.9885246021448826,0.0035274481343507053,False
+AdaBoost,177,4,False,"gill-color, stalk-surface-above-ring, ring-type",0.9987199975463212,0.0009612804775641835,False
+AdaBoost,178,4,False,"gill-color, stalk-surface-above-ring, stalk-surface-below-ring",0.993287552144057,0.0019186321855632817,False
+AdaBoost,179,4,False,"gill-color, stalk-surface-above-ring, gill-size",0.9969700573235022,0.001371300208475782,False
+AdaBoost,180,5,False,"gill-color, stalk-surface-above-ring",0.9975900758956351,0.002926826477423472,False
+AdaBoost,181,4,False,"gill-color, stalk-surface-above-ring, odor",0.9588572504857314,0.004919946703550179,False
+AdaBoost,182,4,False,"gill-color, stalk-surface-above-ring, spore-print-color",0.9846167162994008,0.0064171860822679816,False
+AdaBoost,183,4,False,"gill-color, stalk-surface-above-ring, ring-type",0.9948578666239503,0.002995592750133444,False
+AdaBoost,184,4,False,"gill-color, stalk-surface-above-ring, stalk-surface-below-ring",0.9938947859888312,0.001883049018147801,False
+AdaBoost,185,4,False,"gill-color, stalk-surface-above-ring, gill-size",0.9847580237525365,0.0033756015971551094,False
+AdaBoost,186,5,False,"gill-color, stalk-surface-above-ring",0.9987199975463212,0.0009612804775641835,False
+AdaBoost,187,4,False,"gill-color, stalk-surface-above-ring, odor",0.9706597292995187,0.0032747800924077925,False
+AdaBoost,188,4,False,"gill-color, stalk-surface-above-ring, spore-print-color",0.9896747499816623,0.002211248833620915,False
+AdaBoost,189,4,False,"gill-color, stalk-surface-above-ring, ring-type",0.9987199975463212,0.0009612804775641835,False
+AdaBoost,190,4,False,"gill-color, stalk-surface-above-ring, stalk-surface-below-ring",0.9938947859888312,0.001883049018147801,False
+AdaBoost,191,4,False,"gill-color, stalk-surface-above-ring, gill-size",0.9938947859888312,0.001883049018147801,False
+AdaBoost,192,5,False,"gill-color, stalk-surface-above-ring",0.9990392313851082,0.0011766964336828475,False
+AdaBoost,193,4,False,"gill-color, stalk-surface-above-ring, odor",0.9748240552267644,0.0038096575598559764,False
+AdaBoost,194,4,False,"gill-color, stalk-surface-above-ring, spore-print-color",0.9896747499816623,0.002211248833620915,False
+AdaBoost,195,4,False,"gill-color, stalk-surface-above-ring, ring-type",0.9987199975463212,0.0009612804775641835,False
+AdaBoost,196,4,False,"gill-color, stalk-surface-above-ring, stalk-surface-below-ring",0.9931076689645526,0.00199840735774456,False
+AdaBoost,197,4,False,"gill-color, stalk-surface-above-ring, gill-size",0.9987199975463212,0.0009612804775641835,False
+AdaBoost,198,5,False,"gill-color, stalk-surface-above-ring",1.0,0.0,False
+AdaBoost,199,4,False,"gill-color, stalk-surface-above-ring, odor",0.9793810773240482,0.0036406192770386332,False
+AdaBoost,200,4,False,"gill-color, stalk-surface-above-ring, spore-print-color",0.9896747499816623,0.002211248833620915,False
+AdaBoost,201,4,False,"gill-color, stalk-surface-above-ring, ring-type",0.9987199975463212,0.0009612804775641835,False
+AdaBoost,202,4,False,"gill-color, stalk-surface-above-ring, stalk-surface-below-ring",0.994419046472671,0.001666574666359758,False
+AdaBoost,203,4,False,"gill-color, stalk-surface-above-ring, gill-size",0.9987199975463212,0.0009612804775641835,False
+AdaBoost,204,5,False,"gill-color, stalk-surface-above-ring",1.0,0.0,False
+AdaBoost,205,4,False,"gill-color, stalk-surface-above-ring, odor",0.9798363671591815,0.0029637834328914486,False
+AdaBoost,206,4,False,"gill-color, stalk-surface-above-ring, spore-print-color",0.9884030079821432,0.001227198469966113,False
+AdaBoost,207,4,False,"gill-color, stalk-surface-above-ring, ring-type",0.9987199975463212,0.0009612804775641835,False
+AdaBoost,208,4,False,"gill-color, stalk-surface-above-ring, stalk-surface-below-ring",0.9944167571346902,0.0016621872134815069,False
+AdaBoost,209,4,False,"gill-color, stalk-surface-above-ring, gill-size",0.9980830560980014,0.001297319988580356,False
+AdaBoost,210,5,False,"gill-color, stalk-surface-above-ring",1.0,0.0,False
+AdaBoost,211,4,False,"gill-color, stalk-surface-above-ring, odor",0.9798363671591815,0.0029637834328914486,False
+AdaBoost,212,4,False,"gill-color, stalk-surface-above-ring, spore-print-color",0.9896747499816623,0.002211248833620915,False
+AdaBoost,213,4,False,"gill-color, stalk-surface-above-ring, ring-type",0.9987199975463212,0.0009612804775641835,False
+AdaBoost,214,4,False,"gill-color, stalk-surface-above-ring, stalk-surface-below-ring",0.9943961521494286,0.0016817065937984577,False
+AdaBoost,215,4,False,"gill-color, stalk-surface-above-ring, gill-size",0.9980830560980014,0.001297319988580356,False
+XGBoost,0,6,False,,0.9938947859888312,0.001883049018147801,False
+XGBoost,1,6,True,,0.9938947859888312,0.001883049018147801,False
+XGBoost,2,7,False,,0.9975972979418399,0.0014378262754934559,False
+XGBoost,3,7,True,,0.9975972979418399,0.0014378262754934559,False
+XGBoost,4,8,False,,0.9975972979418399,0.0014378262754934559,False
+XGBoost,5,8,True,,0.9975972979418399,0.0014378262754934559,False
+XGBoost,6,9,False,,0.9975972979418399,0.0014378262754934559,False
+XGBoost,7,9,True,,0.9975972979418399,0.0014378262754934559,False
+XGBoost,8,10,False,,0.9975972979418399,0.0014378262754934559,False
+XGBoost,9,10,True,,0.9975972979418399,0.0014378262754934559,False
+XGBoost,10,21,False,,0.9969552482981928,0.0016377497349805922,False
+XGBoost,11,21,True,,0.9969552482981928,0.0016377497349805922,False
+XGBoost,12,6,False,,0.9975972979418399,0.0014378262754934559,False
+XGBoost,13,6,True,,0.9975972979418399,0.0014378262754934559,False
+XGBoost,14,7,False,,0.998237299991809,0.001714392915599031,False
+XGBoost,15,7,True,,0.998237299991809,0.001714392915599031,False
+XGBoost,16,8,False,,0.998237299991809,0.001714392915599031,False
+XGBoost,17,8,True,,0.998237299991809,0.001714392915599031,False
+XGBoost,18,9,False,,0.9987199975463212,0.0009612804775641835,False
+XGBoost,19,9,True,,0.9987199975463212,0.0009612804775641835,False
+XGBoost,20,10,False,,0.9987199975463212,0.0009612804775641835,False
+XGBoost,21,10,True,,0.9987199975463212,0.0009612804775641835,False
+XGBoost,22,21,False,,0.9990392313851082,0.0011766964336828475,False
+XGBoost,23,21,True,,0.9990392313851082,0.0011766964336828475,False
+XGBoost,24,6,False,,0.9987199975463212,0.0009612804775641835,False
+XGBoost,25,6,True,,0.9987199975463212,0.0009612804775641835,False
+XGBoost,26,7,False,,0.9990392313851082,0.0011766964336828475,False
+XGBoost,27,7,True,,0.9990392313851082,0.0011766964336828475,False
+XGBoost,28,8,False,,0.9990392313851082,0.0011766964336828475,False
+XGBoost,29,8,True,,0.9990392313851082,0.0011766964336828475,False
+XGBoost,30,9,False,,0.9995196156925541,0.0009607686148918938,False
+XGBoost,31,9,True,,0.9995196156925541,0.0009607686148918938,False
+XGBoost,32,10,False,,1.0,0.0,False
+XGBoost,33,10,True,,1.0,0.0,False
+XGBoost,34,21,False,,1.0,0.0,False
+XGBoost,35,21,True,,1.0,0.0,False
+XGBoost,36,6,False,,0.9987199975463212,0.0009612804775641835,False
+XGBoost,37,6,True,,0.9987199975463212,0.0009612804775641835,False
+XGBoost,38,7,False,,1.0,0.0,False
+XGBoost,39,7,True,,1.0,0.0,False
+XGBoost,40,8,False,,1.0,0.0,False
+XGBoost,41,8,True,,1.0,0.0,False
+XGBoost,42,9,False,,1.0,0.0,False
+XGBoost,43,9,True,,1.0,0.0,False
+XGBoost,44,10,False,,1.0,0.0,False
+XGBoost,45,10,True,,1.0,0.0,False
+XGBoost,46,21,False,,1.0,0.0,False
+XGBoost,47,21,True,,1.0,0.0,False
+XGBoost,48,6,False,,0.9979178111739175,0.0014903387548669833,False
+XGBoost,49,6,True,,0.9979178111739175,0.0014903387548669833,False
+XGBoost,50,7,False,,0.9987199975463212,0.0009612804775641835,False
+XGBoost,51,7,True,,0.9987199975463212,0.0009612804775641835,False
+XGBoost,52,8,False,,0.9987199975463212,0.0009612804775641835,False
+XGBoost,53,8,True,,0.9987199975463212,0.0009612804775641835,False
+XGBoost,54,9,False,,0.9987199975463212,0.0009612804775641835,False
+XGBoost,55,9,True,,0.9987199975463212,0.0009612804775641835,False
+XGBoost,56,10,False,,0.9990392313851082,0.0011766964336828475,False
+XGBoost,57,10,True,,0.9990392313851082,0.0011766964336828475,False
+XGBoost,58,21,False,,1.0,0.0,False
+XGBoost,59,21,True,,1.0,0.0,False
+XGBoost,60,6,False,,0.9987199975463212,0.0009612804775641835,False
+XGBoost,61,6,True,,0.9987199975463212,0.0009612804775641835,False
+XGBoost,62,7,False,,1.0,0.0,False
+XGBoost,63,7,True,,1.0,0.0,False
+XGBoost,64,8,False,,1.0,0.0,False
+XGBoost,65,8,True,,1.0,0.0,False
+XGBoost,66,9,False,,1.0,0.0,False
+XGBoost,67,9,True,,1.0,0.0,False
+XGBoost,68,10,False,,1.0,0.0,False
+XGBoost,69,10,True,,1.0,0.0,False
+XGBoost,70,21,False,,1.0,0.0,False
+XGBoost,71,21,True,,1.0,0.0,False
+XGBoost,72,6,False,,0.9987199975463212,0.0009612804775641835,False
+XGBoost,73,6,True,,0.9987199975463212,0.0009612804775641835,False
+XGBoost,74,7,False,,1.0,0.0,False
+XGBoost,75,7,True,,1.0,0.0,False
+XGBoost,76,8,False,,1.0,0.0,False
+XGBoost,77,8,True,,1.0,0.0,False
+XGBoost,78,9,False,,1.0,0.0,False
+XGBoost,79,9,True,,1.0,0.0,False
+XGBoost,80,10,False,,1.0,0.0,False
+XGBoost,81,10,True,,1.0,0.0,False
+XGBoost,82,21,False,,1.0,0.0,False
+XGBoost,83,21,True,,1.0,0.0,False
+XGBoost,84,6,False,,0.9987199975463212,0.0009612804775641835,False
+XGBoost,85,6,True,,0.9987199975463212,0.0009612804775641835,False
+XGBoost,86,7,False,,1.0,0.0,False
+XGBoost,87,7,True,,1.0,0.0,False
+XGBoost,88,8,False,,1.0,0.0,False
+XGBoost,89,8,True,,1.0,0.0,False
+XGBoost,90,9,False,,1.0,0.0,False
+XGBoost,91,9,True,,1.0,0.0,False
+XGBoost,92,10,False,,1.0,0.0,False
+XGBoost,93,10,True,,1.0,0.0,False
+XGBoost,94,21,False,,1.0,0.0,False
+XGBoost,95,21,True,,1.0,0.0,False
+XGBoost,96,5,False,"gill-color, stalk-surface-above-ring",0.9938947859888312,0.001883049018147801,False
+XGBoost,97,4,False,"gill-color, stalk-surface-above-ring, odor",0.9735437290410103,0.002909841044586001,False
+XGBoost,98,4,False,"gill-color, stalk-surface-above-ring, spore-print-color",0.9896747499816623,0.002211248833620915,False
+XGBoost,99,4,False,"gill-color, stalk-surface-above-ring, ring-type",0.9938947859888312,0.001883049018147801,False
+XGBoost,100,4,False,"gill-color, stalk-surface-above-ring, stalk-surface-below-ring",0.9938947859888312,0.001883049018147801,False
+XGBoost,101,4,False,"gill-color, stalk-surface-above-ring, gill-size",0.9938947859888312,0.001883049018147801,False
+XGBoost,102,5,False,"gill-color, stalk-surface-above-ring",0.9987199975463212,0.0009612804775641835,False
+XGBoost,103,4,False,"gill-color, stalk-surface-above-ring, odor",0.9781528820589147,0.0028618545377729274,False
+XGBoost,104,4,False,"gill-color, stalk-surface-above-ring, spore-print-color",0.9896747499816623,0.002211248833620915,False
+XGBoost,105,4,False,"gill-color, stalk-surface-above-ring, ring-type",0.9987199975463212,0.0009612804775641835,False
+XGBoost,106,4,False,"gill-color, stalk-surface-above-ring, stalk-surface-below-ring",0.9938947859888312,0.001883049018147801,False
+XGBoost,107,4,False,"gill-color, stalk-surface-above-ring, gill-size",0.9938947859888312,0.001883049018147801,False
+XGBoost,108,5,False,"gill-color, stalk-surface-above-ring",0.9990392313851082,0.0011766964336828475,False
+XGBoost,109,4,False,"gill-color, stalk-surface-above-ring, odor",0.9798363671591815,0.0029637834328914486,False
+XGBoost,110,4,False,"gill-color, stalk-surface-above-ring, spore-print-color",0.9896747499816623,0.002211248833620915,False
+XGBoost,111,4,False,"gill-color, stalk-surface-above-ring, ring-type",0.9987199975463212,0.0009612804775641835,False
+XGBoost,112,4,False,"gill-color, stalk-surface-above-ring, stalk-surface-below-ring",0.9943961521494286,0.0016817065937984577,False
+XGBoost,113,4,False,"gill-color, stalk-surface-above-ring, gill-size",0.9987199975463212,0.0009612804775641835,False
+XGBoost,114,5,False,"gill-color, stalk-surface-above-ring",1.0,0.0,False
+XGBoost,115,4,False,"gill-color, stalk-surface-above-ring, odor",0.9798363671591815,0.0029637834328914486,False
+XGBoost,116,4,False,"gill-color, stalk-surface-above-ring, spore-print-color",0.9896747499816623,0.002211248833620915,False
+XGBoost,117,4,False,"gill-color, stalk-surface-above-ring, ring-type",0.9987199975463212,0.0009612804775641835,False
+XGBoost,118,4,False,"gill-color, stalk-surface-above-ring, stalk-surface-below-ring",0.9943961521494286,0.0016817065937984577,False
+XGBoost,119,4,False,"gill-color, stalk-surface-above-ring, gill-size",0.9987199975463212,0.0009612804775641835,False
+XGBoost,120,5,False,"gill-color, stalk-surface-above-ring",0.9987199975463212,0.0009612804775641835,False
+XGBoost,121,4,False,"gill-color, stalk-surface-above-ring, odor",0.9798363671591815,0.0029637834328914486,False
+XGBoost,122,4,False,"gill-color, stalk-surface-above-ring, spore-print-color",0.9896747499816623,0.002211248833620915,False
+XGBoost,123,4,False,"gill-color, stalk-surface-above-ring, ring-type",0.9987199975463212,0.0009612804775641835,False
+XGBoost,124,4,False,"gill-color, stalk-surface-above-ring, stalk-surface-below-ring",0.9943961521494286,0.0016817065937984577,False
+XGBoost,125,4,False,"gill-color, stalk-surface-above-ring, gill-size",0.9987199975463212,0.0009612804775641835,False
+XGBoost,126,5,False,"gill-color, stalk-surface-above-ring",1.0,0.0,True
+XGBoost,127,4,False,"gill-color, stalk-surface-above-ring, odor",0.9798363671591815,0.0029637834328914486,False
+XGBoost,128,4,False,"gill-color, stalk-surface-above-ring, spore-print-color",0.9896747499816623,0.002211248833620915,False
+XGBoost,129,4,False,"gill-color, stalk-surface-above-ring, ring-type",0.9987199975463212,0.0009612804775641835,False
+XGBoost,130,4,False,"gill-color, stalk-surface-above-ring, stalk-surface-below-ring",0.9943961521494286,0.0016817065937984577,False
+XGBoost,131,4,False,"gill-color, stalk-surface-above-ring, gill-size",0.9987199975463212,0.0009612804775641835,False
+XGBoost,132,5,False,"gill-color, stalk-surface-above-ring",1.0,0.0,False
+XGBoost,133,4,False,"gill-color, stalk-surface-above-ring, odor",0.9798363671591815,0.0029637834328914486,False
+XGBoost,134,4,False,"gill-color, stalk-surface-above-ring, spore-print-color",0.9896747499816623,0.002211248833620915,False
+XGBoost,135,4,False,"gill-color, stalk-surface-above-ring, ring-type",0.9987199975463212,0.0009612804775641835,False
+XGBoost,136,4,False,"gill-color, stalk-surface-above-ring, stalk-surface-below-ring",0.9943961521494286,0.0016817065937984577,False
+XGBoost,137,4,False,"gill-color, stalk-surface-above-ring, gill-size",0.9987199975463212,0.0009612804775641835,False
+XGBoost,138,5,False,"gill-color, stalk-surface-above-ring",1.0,0.0,False
+XGBoost,139,4,False,"gill-color, stalk-surface-above-ring, odor",0.9798363671591815,0.0029637834328914486,False
+XGBoost,140,4,False,"gill-color, stalk-surface-above-ring, spore-print-color",0.9896747499816623,0.002211248833620915,False
+XGBoost,141,4,False,"gill-color, stalk-surface-above-ring, ring-type",0.9987199975463212,0.0009612804775641835,False
+XGBoost,142,4,False,"gill-color, stalk-surface-above-ring, stalk-surface-below-ring",0.9943961521494286,0.0016817065937984577,False
+XGBoost,143,4,False,"gill-color, stalk-surface-above-ring, gill-size",0.9987199975463212,0.0009612804775641835,False

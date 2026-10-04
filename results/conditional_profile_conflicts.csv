@@ -1,0 +1,7 @@
+Removed,Attributes,Profiles,Mixed-label profiles,Rows in mixed profiles,Minimum training errors
+None,5,47,0,0,0
+odor,4,29,3,1181,129
+spore-print-color,4,28,2,1817,64
+ring-type,4,43,1,24,8
+stalk-surface-below-ring,4,33,1,62,30
+gill-size,4,41,1,153,8

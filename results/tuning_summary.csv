@@ -1,0 +1,5 @@
+Model,Candidates,CV F1,CV SD,Attributes
+Decision Tree,108,1.0,0.0,5
+Random Forest,288,1.0,0.0,5
+AdaBoost,216,1.0,0.0,5
+XGBoost,144,1.0,0.0,5

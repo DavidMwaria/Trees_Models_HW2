@@ -1,0 +1,15 @@
+\begin{table}[H]
+\centering\small
+\caption{Equal-profile diagnostic averages. These are different weights from the pooled row metrics.}
+\begin{adjustbox}{max width=\linewidth}\begin{tabular}{lrrrrr}
+\toprule
+Model & Profile accuracy & Positive recall & Edible specificity & Positive profiles & Edible profiles \\
+\midrule
+AdaBoost & 0.8298 & 0.8235 & 0.8333 & 17 & 30 \\
+Decision Tree & 0.8723 & 0.8235 & 0.9000 & 17 & 30 \\
+Profile lookup fallback & 0.6383 & 0.0000 & 1.0000 & 17 & 30 \\
+Random Forest & 0.8723 & 0.8235 & 0.9000 & 17 & 30 \\
+XGBoost & 0.8936 & 0.8235 & 0.9333 & 17 & 30 \\
+\bottomrule
+\end{tabular}\end{adjustbox}
+\end{table}

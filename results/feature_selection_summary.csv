@@ -1,0 +1,49 @@
+Maximum attributes,Pruning,Best CV F1,Model
+6,False,0.9987199975463212,Decision Tree
+6,True,0.9987199975463212,Decision Tree
+7,False,1.0,Decision Tree
+7,True,1.0,Decision Tree
+8,False,1.0,Decision Tree
+8,True,1.0,Decision Tree
+9,False,1.0,Decision Tree
+9,True,1.0,Decision Tree
+10,False,1.0,Decision Tree
+10,True,1.0,Decision Tree
+21,False,1.0,Decision Tree
+21,True,1.0,Decision Tree
+6,False,0.9987199975463212,Random Forest
+6,True,0.9987199975463212,Random Forest
+7,False,1.0,Random Forest
+7,True,1.0,Random Forest
+8,False,1.0,Random Forest
+8,True,1.0,Random Forest
+9,False,1.0,Random Forest
+9,True,1.0,Random Forest
+10,False,1.0,Random Forest
+10,True,1.0,Random Forest
+21,False,1.0,Random Forest
+21,True,1.0,Random Forest
+6,False,0.9987199975463212,AdaBoost
+6,True,0.9987199975463212,AdaBoost
+7,False,1.0,AdaBoost
+7,True,1.0,AdaBoost
+8,False,1.0,AdaBoost
+8,True,1.0,AdaBoost
+9,False,1.0,AdaBoost
+9,True,1.0,AdaBoost
+10,False,1.0,AdaBoost
+10,True,1.0,AdaBoost
+21,False,1.0,AdaBoost
+21,True,1.0,AdaBoost
+6,False,0.9987199975463212,XGBoost
+6,True,0.9987199975463212,XGBoost
+7,False,1.0,XGBoost
+7,True,1.0,XGBoost
+8,False,1.0,XGBoost
+8,True,1.0,XGBoost
+9,False,1.0,XGBoost
+9,True,1.0,XGBoost
+10,False,1.0,XGBoost
+10,True,1.0,XGBoost
+21,False,1.0,XGBoost
+21,True,1.0,XGBoost

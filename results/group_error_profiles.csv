@@ -1,0 +1,26 @@
+Model,Group,Profile,Rows,FN,FP
+AdaBoost,20,odor=almond; spore-print-color=brown; ring-type=pendant; stalk-surface-below-ring=smooth; gill-size=narrow,20,0,20
+AdaBoost,27,odor=almond; spore-print-color=brown; ring-type=pendant; stalk-surface-below-ring=scaly; gill-size=broad,40,0,40
+AdaBoost,32,odor=none; spore-print-color=green; ring-type=pendant; stalk-surface-below-ring=smooth; gill-size=broad,56,56,0
+AdaBoost,38,odor=almond; spore-print-color=purple; ring-type=pendant; stalk-surface-below-ring=smooth; gill-size=narrow,19,0,19
+AdaBoost,39,odor=almond; spore-print-color=black; ring-type=pendant; stalk-surface-below-ring=scaly; gill-size=broad,40,0,40
+AdaBoost,41,odor=none; spore-print-color=white; ring-type=evanescent; stalk-surface-below-ring=scaly; gill-size=narrow,30,30,0
+AdaBoost,44,odor=none; spore-print-color=white; ring-type=evanescent; stalk-surface-below-ring=smooth; gill-size=narrow,16,0,16
+AdaBoost,45,odor=none; spore-print-color=white; ring-type=pendant; stalk-surface-below-ring=smooth; gill-size=narrow,8,8,0
+Decision Tree,20,odor=almond; spore-print-color=brown; ring-type=pendant; stalk-surface-below-ring=smooth; gill-size=narrow,20,0,20
+Decision Tree,32,odor=none; spore-print-color=green; ring-type=pendant; stalk-surface-below-ring=smooth; gill-size=broad,56,56,0
+Decision Tree,38,odor=almond; spore-print-color=purple; ring-type=pendant; stalk-surface-below-ring=smooth; gill-size=narrow,19,0,19
+Decision Tree,41,odor=none; spore-print-color=white; ring-type=evanescent; stalk-surface-below-ring=scaly; gill-size=narrow,30,30,0
+Decision Tree,44,odor=none; spore-print-color=white; ring-type=evanescent; stalk-surface-below-ring=smooth; gill-size=narrow,16,0,16
+Decision Tree,45,odor=none; spore-print-color=white; ring-type=pendant; stalk-surface-below-ring=smooth; gill-size=narrow,8,8,0
+Random Forest,20,odor=almond; spore-print-color=brown; ring-type=pendant; stalk-surface-below-ring=smooth; gill-size=narrow,20,0,20
+Random Forest,32,odor=none; spore-print-color=green; ring-type=pendant; stalk-surface-below-ring=smooth; gill-size=broad,56,56,0
+Random Forest,38,odor=almond; spore-print-color=purple; ring-type=pendant; stalk-surface-below-ring=smooth; gill-size=narrow,19,0,19
+Random Forest,41,odor=none; spore-print-color=white; ring-type=evanescent; stalk-surface-below-ring=scaly; gill-size=narrow,30,30,0
+Random Forest,44,odor=none; spore-print-color=white; ring-type=evanescent; stalk-surface-below-ring=smooth; gill-size=narrow,16,0,16
+Random Forest,45,odor=none; spore-print-color=white; ring-type=pendant; stalk-surface-below-ring=smooth; gill-size=narrow,8,8,0
+XGBoost,32,odor=none; spore-print-color=green; ring-type=pendant; stalk-surface-below-ring=smooth; gill-size=broad,56,56,0
+XGBoost,38,odor=almond; spore-print-color=purple; ring-type=pendant; stalk-surface-below-ring=smooth; gill-size=narrow,19,0,19
+XGBoost,41,odor=none; spore-print-color=white; ring-type=evanescent; stalk-surface-below-ring=scaly; gill-size=narrow,30,30,0
+XGBoost,44,odor=none; spore-print-color=white; ring-type=evanescent; stalk-surface-below-ring=smooth; gill-size=narrow,16,0,16
+XGBoost,45,odor=none; spore-print-color=white; ring-type=pendant; stalk-surface-below-ring=smooth; gill-size=narrow,8,8,0

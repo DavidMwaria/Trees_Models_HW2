@@ -1,0 +1,843 @@
+{
+  "seed": 4372,
+  "training_rows": 6499,
+  "test_rows": 1625,
+  "test_edible": 842,
+  "test_poisonous": 783,
+  "selected_attributes": [
+    "odor",
+    "spore-print-color",
+    "ring-type",
+    "stalk-surface-below-ring",
+    "gill-size"
+  ],
+  "selected_models": [
+    {
+      "Model": "Decision Tree",
+      "Attributes": [
+        "odor",
+        "spore-print-color",
+        "ring-type",
+        "stalk-surface-below-ring",
+        "gill-size"
+      ],
+      "Parameters": {
+        "model__max_depth": 6,
+        "model__min_samples_leaf": 5,
+        "select__drop": [
+          "gill-color",
+          "stalk-surface-above-ring"
+        ],
+        "select__k": 7,
+        "select__prune": false
+      }
+    },
+    {
+      "Model": "Random Forest",
+      "Attributes": [
+        "odor",
+        "spore-print-color",
+        "ring-type",
+        "stalk-surface-below-ring",
+        "gill-size"
+      ],
+      "Parameters": {
+        "model__max_depth": 6,
+        "model__max_features": 0.7,
+        "model__min_samples_leaf": 3,
+        "model__n_estimators": 100,
+        "select__drop": [
+          "gill-color",
+          "stalk-surface-above-ring"
+        ],
+        "select__k": 7,
+        "select__prune": false
+      }
+    },
+    {
+      "Model": "AdaBoost",
+      "Attributes": [
+        "odor",
+        "spore-print-color",
+        "ring-type",
+        "stalk-surface-below-ring",
+        "gill-size"
+      ],
+      "Parameters": {
+        "model__estimator__max_depth": 1,
+        "model__learning_rate": 1.0,
+        "model__n_estimators": 150,
+        "select__drop": [
+          "gill-color",
+          "stalk-surface-above-ring"
+        ],
+        "select__k": 7,
+        "select__prune": false
+      }
+    },
+    {
+      "Model": "XGBoost",
+      "Attributes": [
+        "odor",
+        "spore-print-color",
+        "ring-type",
+        "stalk-surface-below-ring",
+        "gill-size"
+      ],
+      "Parameters": {
+        "model__learning_rate": 0.2,
+        "model__max_depth": 2,
+        "model__n_estimators": 250,
+        "select__drop": [
+          "gill-color",
+          "stalk-surface-above-ring"
+        ],
+        "select__k": 7,
+        "select__prune": false
+      }
+    }
+  ],
+  "probability_quality": [
+    {
+      "Model": "Decision Tree",
+      "Brier": 0.0,
+      "Log loss": 2.2204460492503136e-16,
+      "Maximum edible score": 0.0,
+      "Minimum poisonous score": 1.0
+    },
+    {
+      "Model": "Random Forest",
+      "Brier": 5.597193500311792e-05,
+      "Log loss": 0.0013756807882119022,
+      "Maximum edible score": 0.09056039451316725,
+      "Minimum poisonous score": 0.9946967917014525
+    },
+    {
+      "Model": "AdaBoost",
+      "Brier": 0.14935541884449768,
+      "Log loss": 0.48755327187799047,
+      "Maximum edible score": 0.48350083058845356,
+      "Minimum poisonous score": 0.5313519913562715
+    },
+    {
+      "Model": "XGBoost",
+      "Brier": 1.9541514120646752e-05,
+      "Log loss": 0.0014351624095635157,
+      "Maximum edible score": 0.028797611594200134,
+      "Minimum poisonous score": 0.9788980484008789
+    }
+  ],
+  "group_stress": [
+    {
+      "Model": "AdaBoost",
+      "Accuracy": 0.9647638098168949,
+      "Precision": 0.9574669187145558,
+      "Recall": 0.969996808171082,
+      "F1": 0.9636911368320913,
+      "FN": 94,
+      "FP": 135
+    },
+    {
+      "Model": "Decision Tree",
+      "Accuracy": 0.9770733959070627,
+      "Precision": 0.9822236586942469,
+      "Recall": 0.969996808171082,
+      "F1": 0.9760719447567047,
+      "FN": 94,
+      "FP": 55
+    },
+    {
+      "Model": "Profile lookup fallback",
+      "Accuracy": 0.5179258347438067,
+      "Precision": 0.0,
+      "Recall": 0.0,
+      "F1": 0.0,
+      "FN": 3133,
+      "FP": 0
+    },
+    {
+      "Model": "Random Forest",
+      "Accuracy": 0.9770733959070627,
+      "Precision": 0.9822236586942469,
+      "Recall": 0.969996808171082,
+      "F1": 0.9760719447567047,
+      "FN": 94,
+      "FP": 55
+    },
+    {
+      "Model": "XGBoost",
+      "Accuracy": 0.9801507924296046,
+      "Precision": 0.9886141834743006,
+      "Recall": 0.969996808171082,
+      "F1": 0.9792170130497825,
+      "FN": 94,
+      "FP": 35
+    }
+  ],
+  "baselines": [
+    {
+      "Baseline": "Always edible",
+      "Accuracy": 0.5181538461538462,
+      "Precision": 0.0,
+      "Recall": 0.0,
+      "F1": 0.0,
+      "FN": 783,
+      "FP": 0
+    },
+    {
+      "Baseline": "Always poisonous",
+      "Accuracy": 0.48184615384615387,
+      "Precision": 0.48184615384615387,
+      "Recall": 1.0,
+      "F1": 0.6503322259136213,
+      "FN": 0,
+      "FP": 842
+    },
+    {
+      "Baseline": "Odor category majority",
+      "Accuracy": 0.984,
+      "Precision": 1.0,
+      "Recall": 0.966794380587484,
+      "F1": 0.9831168831168832,
+      "FN": 26,
+      "FP": 0
+    }
+  ],
+  "profile_coverage": [
+    {
+      "Policy": "All original attributes",
+      "Attributes": 22,
+      "Training profiles": 6499,
+      "Test profiles": 1625,
+      "Test rows seen in training": 0,
+      "Training mixed-label profiles": 0
+    },
+    {
+      "Policy": "Seven-attribute prefix",
+      "Attributes": 7,
+      "Training profiles": 174,
+      "Test profiles": 171,
+      "Test rows seen in training": 1625,
+      "Training mixed-label profiles": 0
+    },
+    {
+      "Policy": "Selected Decision Tree",
+      "Attributes": 5,
+      "Training profiles": 47,
+      "Test profiles": 46,
+      "Test rows seen in training": 1625,
+      "Training mixed-label profiles": 0
+    }
+  ],
+  "conditional_removal": [
+    {
+      "Removed attribute": "None",
+      "CV F1": 1.0,
+      "CV SD": 0.0
+    },
+    {
+      "Removed attribute": "odor",
+      "CV F1": 0.9798363671591815,
+      "CV SD": 0.0029637834328914486
+    },
+    {
+      "Removed attribute": "spore-print-color",
+      "CV F1": 0.9896747499816623,
+      "CV SD": 0.002211248833620915
+    },
+    {
+      "Removed attribute": "ring-type",
+      "CV F1": 0.9987199975463212,
+      "CV SD": 0.0009612804775641835
+    },
+    {
+      "Removed attribute": "stalk-surface-below-ring",
+      "CV F1": 0.9943961521494286,
+      "CV SD": 0.0016817065937984577
+    },
+    {
+      "Removed attribute": "gill-size",
+      "CV F1": 0.9987199975463212,
+      "CV SD": 0.0009612804775641835
+    }
+  ],
+  "decision_paths": [
+    {
+      "Leaf": 3,
+      "Conditions": "not (odor = none); not (odor = almond); not (odor = anise)",
+      "Prediction": "poisonous",
+      "Train rows": 3039,
+      "Train poisonous": 3039,
+      "Test rows": 757,
+      "Test poisonous": 757
+    },
+    {
+      "Leaf": 4,
+      "Conditions": "not (odor = none); not (odor = almond); odor = anise",
+      "Prediction": "edible",
+      "Train rows": 304,
+      "Train poisonous": 0,
+      "Test rows": 96,
+      "Test poisonous": 0
+    },
+    {
+      "Leaf": 5,
+      "Conditions": "not (odor = none); odor = almond",
+      "Prediction": "edible",
+      "Train rows": 328,
+      "Train poisonous": 0,
+      "Test rows": 72,
+      "Test poisonous": 0
+    },
+    {
+      "Leaf": 9,
+      "Conditions": "odor = none; not (spore-print-color = green); not (stalk-surface-below-ring = scaly); not (gill-size = narrow)",
+      "Prediction": "edible",
+      "Train rows": 2573,
+      "Train poisonous": 0,
+      "Test rows": 627,
+      "Test poisonous": 0
+    },
+    {
+      "Leaf": 11,
+      "Conditions": "odor = none; not (spore-print-color = green); not (stalk-surface-below-ring = scaly); gill-size = narrow; not (spore-print-color = white)",
+      "Prediction": "edible",
+      "Train rows": 114,
+      "Train poisonous": 0,
+      "Test rows": 30,
+      "Test poisonous": 0
+    },
+    {
+      "Leaf": 13,
+      "Conditions": "odor = none; not (spore-print-color = green); not (stalk-surface-below-ring = scaly); gill-size = narrow; spore-print-color = white; not (ring-type = evanescent)",
+      "Prediction": "poisonous",
+      "Train rows": 8,
+      "Train poisonous": 8,
+      "Test rows": 0,
+      "Test poisonous": 0
+    },
+    {
+      "Leaf": 14,
+      "Conditions": "odor = none; not (spore-print-color = green); not (stalk-surface-below-ring = scaly); gill-size = narrow; spore-print-color = white; ring-type = evanescent",
+      "Prediction": "edible",
+      "Train rows": 32,
+      "Train poisonous": 0,
+      "Test rows": 16,
+      "Test poisonous": 0
+    },
+    {
+      "Leaf": 16,
+      "Conditions": "odor = none; not (spore-print-color = green); stalk-surface-below-ring = scaly; not (ring-type = pendant)",
+      "Prediction": "poisonous",
+      "Train rows": 30,
+      "Train poisonous": 30,
+      "Test rows": 10,
+      "Test poisonous": 10
+    },
+    {
+      "Leaf": 17,
+      "Conditions": "odor = none; not (spore-print-color = green); stalk-surface-below-ring = scaly; ring-type = pendant",
+      "Prediction": "edible",
+      "Train rows": 15,
+      "Train poisonous": 0,
+      "Test rows": 1,
+      "Test poisonous": 0
+    },
+    {
+      "Leaf": 18,
+      "Conditions": "odor = none; spore-print-color = green",
+      "Prediction": "poisonous",
+      "Train rows": 56,
+      "Train poisonous": 56,
+      "Test rows": 16,
+      "Test poisonous": 16
+    }
+  ],
+  "scaling_summary": [
+    {
+      "Partition": "Train",
+      "Representation": "Encoded",
+      "Rows": 6499,
+      "Columns": 116,
+      "Minimum": 0.0,
+      "Maximum": 1.0,
+      "Largest absolute column mean": 0.9752269579935374,
+      "Smallest column SD": 0.0248012195211054,
+      "Largest column SD": 0.4999749916804862
+    },
+    {
+      "Partition": "Train",
+      "Representation": "Standardized",
+      "Rows": 6499,
+      "Columns": 116,
+      "Minimum": -6.274269648917792,
+      "Maximum": 40.29578141691903,
+      "Largest absolute column mean": 3.2061341323534296e-15,
+      "Smallest column SD": 0.9999999999998266,
+      "Largest column SD": 1.0000000000001072
+    },
+    {
+      "Partition": "Train",
+      "Representation": "Min-max",
+      "Rows": 6499,
+      "Columns": 116,
+      "Minimum": 0.0,
+      "Maximum": 1.0,
+      "Largest absolute column mean": 0.9752269579935374,
+      "Smallest column SD": 0.0248012195211054,
+      "Largest column SD": 0.4999749916804862
+    },
+    {
+      "Partition": "Test",
+      "Representation": "Encoded",
+      "Rows": 1625,
+      "Columns": 116,
+      "Minimum": 0.0,
+      "Maximum": 1.0,
+      "Largest absolute column mean": 0.976,
+      "Smallest column SD": 0.0,
+      "Largest column SD": 0.4999582467773859
+    },
+    {
+      "Partition": "Test",
+      "Representation": "Standardized",
+      "Rows": 1625,
+      "Columns": 116,
+      "Minimum": -6.274269648917792,
+      "Maximum": 30.453711948276844,
+      "Largest absolute column mean": 0.0707635944327607,
+      "Smallest column SD": 4.440892098500626e-16,
+      "Largest column SD": 1.4114824127035974
+    },
+    {
+      "Partition": "Test",
+      "Representation": "Min-max",
+      "Rows": 1625,
+      "Columns": 116,
+      "Minimum": 0.0,
+      "Maximum": 1.0,
+      "Largest absolute column mean": 0.976,
+      "Smallest column SD": 0.0,
+      "Largest column SD": 0.4999582467773859
+    }
+  ],
+  "model_complexity": [
+    {
+      "Model": "Decision Tree",
+      "Trees": 1,
+      "Max fitted depth": 6,
+      "Total leaves": 10
+    },
+    {
+      "Model": "Random Forest",
+      "Trees": 100,
+      "Max fitted depth": 6,
+      "Total leaves": 1106
+    },
+    {
+      "Model": "AdaBoost",
+      "Trees": 150,
+      "Max fitted depth": 1,
+      "Total leaves": 300
+    },
+    {
+      "Model": "XGBoost",
+      "Trees": 250,
+      "Max fitted depth": 2,
+      "Total leaves": 836
+    }
+  ],
+  "group_probability_quality": [
+    {
+      "Model": "AdaBoost",
+      "Brier": 0.1607060050929092,
+      "Log loss": 0.5110204579306996
+    },
+    {
+      "Model": "Decision Tree",
+      "Brier": 0.0213209355325893,
+      "Log loss": 0.7398155820179751
+    },
+    {
+      "Model": "Profile lookup fallback",
+      "Brier": 0.2546813066737386,
+      "Log loss": 0.7025784955614942
+    },
+    {
+      "Model": "Random Forest",
+      "Brier": 0.0209989271035419,
+      "Log loss": 0.4038609706634367
+    },
+    {
+      "Model": "XGBoost",
+      "Brier": 0.0174828554342333,
+      "Log loss": 0.1707077918555334
+    }
+  ],
+  "conditional_profile_conflicts": [
+    {
+      "Removed": "None",
+      "Attributes": 5,
+      "Profiles": 47,
+      "Mixed-label profiles": 0,
+      "Rows in mixed profiles": 0,
+      "Minimum training errors": 0
+    },
+    {
+      "Removed": "odor",
+      "Attributes": 4,
+      "Profiles": 29,
+      "Mixed-label profiles": 3,
+      "Rows in mixed profiles": 1181,
+      "Minimum training errors": 129
+    },
+    {
+      "Removed": "spore-print-color",
+      "Attributes": 4,
+      "Profiles": 28,
+      "Mixed-label profiles": 2,
+      "Rows in mixed profiles": 1817,
+      "Minimum training errors": 64
+    },
+    {
+      "Removed": "ring-type",
+      "Attributes": 4,
+      "Profiles": 43,
+      "Mixed-label profiles": 1,
+      "Rows in mixed profiles": 24,
+      "Minimum training errors": 8
+    },
+    {
+      "Removed": "stalk-surface-below-ring",
+      "Attributes": 4,
+      "Profiles": 33,
+      "Mixed-label profiles": 1,
+      "Rows in mixed profiles": 62,
+      "Minimum training errors": 30
+    },
+    {
+      "Removed": "gill-size",
+      "Attributes": 4,
+      "Profiles": 41,
+      "Mixed-label profiles": 1,
+      "Rows in mixed profiles": 153,
+      "Minimum training errors": 8
+    }
+  ],
+  "group_profile_balanced": [
+    {
+      "Model": "AdaBoost",
+      "Mean profile accuracy": 0.8297872340425532,
+      "Mean positive profile recall": 0.8235294117647058,
+      "Mean edible profile specificity": 0.8333333333333334,
+      "Positive profiles": 17,
+      "Edible profiles": 30
+    },
+    {
+      "Model": "Decision Tree",
+      "Mean profile accuracy": 0.8723404255319149,
+      "Mean positive profile recall": 0.8235294117647058,
+      "Mean edible profile specificity": 0.9,
+      "Positive profiles": 17,
+      "Edible profiles": 30
+    },
+    {
+      "Model": "Profile lookup fallback",
+      "Mean profile accuracy": 0.6382978723404256,
+      "Mean positive profile recall": 0.0,
+      "Mean edible profile specificity": 1.0,
+      "Positive profiles": 17,
+      "Edible profiles": 30
+    },
+    {
+      "Model": "Random Forest",
+      "Mean profile accuracy": 0.8723404255319149,
+      "Mean positive profile recall": 0.8235294117647058,
+      "Mean edible profile specificity": 0.9,
+      "Positive profiles": 17,
+      "Edible profiles": 30
+    },
+    {
+      "Model": "XGBoost",
+      "Mean profile accuracy": 0.8936170212765957,
+      "Mean positive profile recall": 0.8235294117647058,
+      "Mean edible profile specificity": 0.9333333333333332,
+      "Positive profiles": 17,
+      "Edible profiles": 30
+    }
+  ],
+  "group_category_novelty": [
+    {
+      "Model": "AdaBoost",
+      "Validation rows": 6499,
+      "Rows with seen selected profiles": 981,
+      "Rows with unseen levels": 1276,
+      "Errors with unseen levels": 56,
+      "Errors with seen levels": 173
+    },
+    {
+      "Model": "Decision Tree",
+      "Validation rows": 6499,
+      "Rows with seen selected profiles": 981,
+      "Rows with unseen levels": 1276,
+      "Errors with unseen levels": 56,
+      "Errors with seen levels": 93
+    },
+    {
+      "Model": "Random Forest",
+      "Validation rows": 6499,
+      "Rows with seen selected profiles": 981,
+      "Rows with unseen levels": 1276,
+      "Errors with unseen levels": 56,
+      "Errors with seen levels": 93
+    },
+    {
+      "Model": "XGBoost",
+      "Validation rows": 6499,
+      "Rows with seen selected profiles": 981,
+      "Rows with unseen levels": 1276,
+      "Errors with unseen levels": 56,
+      "Errors with seen levels": 73
+    }
+  ],
+  "selected_policy_ranges": [
+    {
+      "Model": "Decision Tree",
+      "Best mean F1": 1.0,
+      "Worst mean F1": 0.9963331158751824,
+      "Configurations": 6,
+      "Perfect mean F1 configurations": 4
+    },
+    {
+      "Model": "Random Forest",
+      "Best mean F1": 1.0,
+      "Worst mean F1": 0.9927513872690892,
+      "Configurations": 16,
+      "Perfect mean F1 configurations": 12
+    },
+    {
+      "Model": "AdaBoost",
+      "Best mean F1": 1.0,
+      "Worst mean F1": 0.9689671859556568,
+      "Configurations": 12,
+      "Perfect mean F1 configurations": 4
+    },
+    {
+      "Model": "XGBoost",
+      "Best mean F1": 1.0,
+      "Worst mean F1": 0.9938947859888312,
+      "Configurations": 8,
+      "Perfect mean F1 configurations": 4
+    }
+  ],
+  "group_fold_support": [
+    {
+      "Fold": 1,
+      "Fit rows": 4811,
+      "Validation rows": 1688,
+      "Fit groups": 37,
+      "Validation groups": 10,
+      "Validation poisonous": 1046
+    },
+    {
+      "Fold": 2,
+      "Fit rows": 5234,
+      "Validation rows": 1265,
+      "Fit groups": 43,
+      "Validation groups": 4,
+      "Validation poisonous": 526
+    },
+    {
+      "Fold": 3,
+      "Fit rows": 5295,
+      "Validation rows": 1204,
+      "Fit groups": 43,
+      "Validation groups": 4,
+      "Validation poisonous": 521
+    },
+    {
+      "Fold": 4,
+      "Fit rows": 5330,
+      "Validation rows": 1169,
+      "Fit groups": 33,
+      "Validation groups": 14,
+      "Validation poisonous": 516
+    },
+    {
+      "Fold": 5,
+      "Fit rows": 5326,
+      "Validation rows": 1173,
+      "Fit groups": 32,
+      "Validation groups": 15,
+      "Validation poisonous": 524
+    }
+  ],
+  "row_cv_profile_coverage": [
+    {
+      "Model": "Decision Tree",
+      "Fold": 1,
+      "Validation rows": 1300,
+      "Validation rows with seen profiles": 1300,
+      "Attributes": "odor, spore-print-color, ring-type, stalk-surface-below-ring, gill-size"
+    },
+    {
+      "Model": "Decision Tree",
+      "Fold": 2,
+      "Validation rows": 1300,
+      "Validation rows with seen profiles": 1300,
+      "Attributes": "odor, spore-print-color, ring-type, stalk-surface-below-ring, gill-size"
+    },
+    {
+      "Model": "Decision Tree",
+      "Fold": 3,
+      "Validation rows": 1300,
+      "Validation rows with seen profiles": 1300,
+      "Attributes": "odor, spore-print-color, ring-type, stalk-surface-below-ring, gill-size"
+    },
+    {
+      "Model": "Decision Tree",
+      "Fold": 4,
+      "Validation rows": 1300,
+      "Validation rows with seen profiles": 1300,
+      "Attributes": "odor, spore-print-color, ring-type, stalk-surface-below-ring, gill-size"
+    },
+    {
+      "Model": "Decision Tree",
+      "Fold": 5,
+      "Validation rows": 1299,
+      "Validation rows with seen profiles": 1299,
+      "Attributes": "odor, spore-print-color, ring-type, stalk-surface-below-ring, gill-size"
+    },
+    {
+      "Model": "Random Forest",
+      "Fold": 1,
+      "Validation rows": 1300,
+      "Validation rows with seen profiles": 1300,
+      "Attributes": "odor, spore-print-color, ring-type, stalk-surface-below-ring, gill-size"
+    },
+    {
+      "Model": "Random Forest",
+      "Fold": 2,
+      "Validation rows": 1300,
+      "Validation rows with seen profiles": 1300,
+      "Attributes": "odor, spore-print-color, ring-type, stalk-surface-below-ring, gill-size"
+    },
+    {
+      "Model": "Random Forest",
+      "Fold": 3,
+      "Validation rows": 1300,
+      "Validation rows with seen profiles": 1300,
+      "Attributes": "odor, spore-print-color, ring-type, stalk-surface-below-ring, gill-size"
+    },
+    {
+      "Model": "Random Forest",
+      "Fold": 4,
+      "Validation rows": 1300,
+      "Validation rows with seen profiles": 1300,
+      "Attributes": "odor, spore-print-color, ring-type, stalk-surface-below-ring, gill-size"
+    },
+    {
+      "Model": "Random Forest",
+      "Fold": 5,
+      "Validation rows": 1299,
+      "Validation rows with seen profiles": 1299,
+      "Attributes": "odor, spore-print-color, ring-type, stalk-surface-below-ring, gill-size"
+    },
+    {
+      "Model": "AdaBoost",
+      "Fold": 1,
+      "Validation rows": 1300,
+      "Validation rows with seen profiles": 1300,
+      "Attributes": "odor, spore-print-color, ring-type, stalk-surface-below-ring, gill-size"
+    },
+    {
+      "Model": "AdaBoost",
+      "Fold": 2,
+      "Validation rows": 1300,
+      "Validation rows with seen profiles": 1300,
+      "Attributes": "odor, spore-print-color, ring-type, stalk-surface-below-ring, gill-size"
+    },
+    {
+      "Model": "AdaBoost",
+      "Fold": 3,
+      "Validation rows": 1300,
+      "Validation rows with seen profiles": 1300,
+      "Attributes": "odor, spore-print-color, ring-type, stalk-surface-below-ring, gill-size"
+    },
+    {
+      "Model": "AdaBoost",
+      "Fold": 4,
+      "Validation rows": 1300,
+      "Validation rows with seen profiles": 1300,
+      "Attributes": "odor, spore-print-color, ring-type, stalk-surface-below-ring, gill-size"
+    },
+    {
+      "Model": "AdaBoost",
+      "Fold": 5,
+      "Validation rows": 1299,
+      "Validation rows with seen profiles": 1299,
+      "Attributes": "odor, spore-print-color, ring-type, stalk-surface-below-ring, gill-size"
+    },
+    {
+      "Model": "XGBoost",
+      "Fold": 1,
+      "Validation rows": 1300,
+      "Validation rows with seen profiles": 1300,
+      "Attributes": "odor, spore-print-color, ring-type, stalk-surface-below-ring, gill-size"
+    },
+    {
+      "Model": "XGBoost",
+      "Fold": 2,
+      "Validation rows": 1300,
+      "Validation rows with seen profiles": 1300,
+      "Attributes": "odor, spore-print-color, ring-type, stalk-surface-below-ring, gill-size"
+    },
+    {
+      "Model": "XGBoost",
+      "Fold": 3,
+      "Validation rows": 1300,
+      "Validation rows with seen profiles": 1300,
+      "Attributes": "odor, spore-print-color, ring-type, stalk-surface-below-ring, gill-size"
+    },
+    {
+      "Model": "XGBoost",
+      "Fold": 4,
+      "Validation rows": 1300,
+      "Validation rows with seen profiles": 1300,
+      "Attributes": "odor, spore-print-color, ring-type, stalk-surface-below-ring, gill-size"
+    },
+    {
+      "Model": "XGBoost",
+      "Fold": 5,
+      "Validation rows": 1299,
+      "Validation rows with seen profiles": 1299,
+      "Attributes": "odor, spore-print-color, ring-type, stalk-surface-below-ring, gill-size"
+    }
+  ],
+  "reproducibility_checks": [
+    {
+      "Model": "Decision Tree",
+      "Predictions match": true,
+      "Maximum probability difference": 0.0,
+      "Selected CV folds match": true
+    },
+    {
+      "Model": "Random Forest",
+      "Predictions match": true,
+      "Maximum probability difference": 0.0,
+      "Selected CV folds match": true
+    },
+    {
+      "Model": "AdaBoost",
+      "Predictions match": true,
+      "Maximum probability difference": 0.0,
+      "Selected CV folds match": true
+    },
+    {
+      "Model": "XGBoost",
+      "Predictions match": true,
+      "Maximum probability difference": 0.0,
+      "Selected CV folds match": true
+    }
+  ]
+}

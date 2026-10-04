@@ -1,0 +1,14 @@
+\begin{table}[H]
+\centering\small
+\caption{Probability quality on the previously evaluated test set; smaller losses are better.}
+\begin{tabular}{lrrrr}
+\toprule
+Model & Brier & Log loss & Maximum edible score & Minimum poisonous score \\
+\midrule
+Decision Tree & 0.0000 & 0.0000 & 0.0000 & 1.0000 \\
+Random Forest & 0.0001 & 0.0014 & 0.0906 & 0.9947 \\
+AdaBoost & 0.1494 & 0.4876 & 0.4835 & 0.5314 \\
+XGBoost & 0.0000 & 0.0014 & 0.0288 & 0.9789 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,5 @@
+Model,Best mean F1,Worst mean F1,Configurations,Perfect mean F1 configurations
+Decision Tree,1.0,0.9963331158751824,6,4
+Random Forest,1.0,0.9927513872690892,16,12
+AdaBoost,1.0,0.9689671859556568,12,4
+XGBoost,1.0,0.9938947859888312,8,4

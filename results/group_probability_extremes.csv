@@ -1,0 +1,6 @@
+Model,Extreme probability rows,Errors at extreme probabilities,Other errors
+AdaBoost,0,0,229
+Decision Tree,6483,133,16
+Profile lookup fallback,0,0,3133
+Random Forest,2911,64,85
+XGBoost,0,0,129

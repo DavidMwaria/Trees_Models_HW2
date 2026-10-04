@@ -1,0 +1,6 @@
+Model,Accuracy,Precision,Recall,F1,ROC AUC,Average precision,False negatives,False positives
+Decision Tree,1.0,1.0,1.0,1.0,1.0,1.0,0,0
+Random Forest,1.0,1.0,1.0,1.0,1.0,1.0,0,0
+AdaBoost,1.0,1.0,1.0,1.0,1.0,1.0,0,0
+XGBoost,1.0,1.0,1.0,1.0,1.0,0.9999999999999999,0,0
+Majority baseline,0.5181538461538462,0.0,0.0,0.0,0.5,0.48184615384615387,783,0

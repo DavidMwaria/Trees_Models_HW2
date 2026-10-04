@@ -1,0 +1,23 @@
+Attribute,Levels,Missing,Most common
+cap-shape,6,0,x
+cap-surface,4,0,y
+cap-color,10,0,n
+bruises,2,0,f
+odor,9,0,n
+gill-attachment,2,0,f
+gill-spacing,2,0,c
+gill-size,2,0,b
+gill-color,12,0,b
+stalk-shape,2,0,t
+stalk-root,5,1990,b
+stalk-surface-above-ring,4,0,s
+stalk-surface-below-ring,4,0,s
+stalk-color-above-ring,9,0,w
+stalk-color-below-ring,9,0,w
+veil-type,1,0,p
+veil-color,4,0,w
+ring-number,3,0,o
+ring-type,5,0,p
+spore-print-color,9,0,w
+population,6,0,v
+habitat,7,0,d

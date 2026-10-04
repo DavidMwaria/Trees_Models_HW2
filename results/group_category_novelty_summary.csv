@@ -1,0 +1,5 @@
+Model,Validation rows,Rows with seen selected profiles,Rows with unseen levels,Errors with unseen levels,Errors with seen levels
+AdaBoost,6499,981,1276,56,173
+Decision Tree,6499,981,1276,56,93
+Random Forest,6499,981,1276,56,93
+XGBoost,6499,981,1276,56,73

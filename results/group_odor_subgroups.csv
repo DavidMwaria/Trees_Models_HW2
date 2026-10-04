@@ -1,0 +1,46 @@
+Model,Odor,Rows,Poisonous,FN,FP
+AdaBoost,almond,328,0,0,119
+AdaBoost,anise,304,0,0,0
+AdaBoost,creosote,146,146,0,0
+AdaBoost,fishy,446,446,0,0
+AdaBoost,foul,1750,1750,0,0
+AdaBoost,musty,24,24,0,0
+AdaBoost,none,2828,94,94,16
+AdaBoost,pungent,208,208,0,0
+AdaBoost,spicy,465,465,0,0
+Decision Tree,almond,328,0,0,39
+Decision Tree,anise,304,0,0,0
+Decision Tree,creosote,146,146,0,0
+Decision Tree,fishy,446,446,0,0
+Decision Tree,foul,1750,1750,0,0
+Decision Tree,musty,24,24,0,0
+Decision Tree,none,2828,94,94,16
+Decision Tree,pungent,208,208,0,0
+Decision Tree,spicy,465,465,0,0
+Profile lookup fallback,almond,328,0,0,0
+Profile lookup fallback,anise,304,0,0,0
+Profile lookup fallback,creosote,146,146,146,0
+Profile lookup fallback,fishy,446,446,446,0
+Profile lookup fallback,foul,1750,1750,1750,0
+Profile lookup fallback,musty,24,24,24,0
+Profile lookup fallback,none,2828,94,94,0
+Profile lookup fallback,pungent,208,208,208,0
+Profile lookup fallback,spicy,465,465,465,0
+Random Forest,almond,328,0,0,39
+Random Forest,anise,304,0,0,0
+Random Forest,creosote,146,146,0,0
+Random Forest,fishy,446,446,0,0
+Random Forest,foul,1750,1750,0,0
+Random Forest,musty,24,24,0,0
+Random Forest,none,2828,94,94,16
+Random Forest,pungent,208,208,0,0
+Random Forest,spicy,465,465,0,0
+XGBoost,almond,328,0,0,19
+XGBoost,anise,304,0,0,0
+XGBoost,creosote,146,146,0,0
+XGBoost,fishy,446,446,0,0
+XGBoost,foul,1750,1750,0,0
+XGBoost,musty,24,24,0,0
+XGBoost,none,2828,94,94,16
+XGBoost,pungent,208,208,0,0
+XGBoost,spicy,465,465,0,0

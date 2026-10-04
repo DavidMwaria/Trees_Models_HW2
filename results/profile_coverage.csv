@@ -1,0 +1,4 @@
+Policy,Attributes,Training profiles,Test profiles,Test rows seen in training,Training mixed-label profiles
+All original attributes,22,6499,1625,0,0
+Seven-attribute prefix,7,174,171,1625,0
+Selected Decision Tree,5,47,46,1625,0

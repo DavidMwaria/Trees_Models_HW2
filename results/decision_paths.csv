@@ -1,0 +1,11 @@
+Leaf,Conditions,Prediction,Train rows,Train poisonous,Test rows,Test poisonous
+3,not (odor = none); not (odor = almond); not (odor = anise),poisonous,3039,3039,757,757
+4,not (odor = none); not (odor = almond); odor = anise,edible,304,0,96,0
+5,not (odor = none); odor = almond,edible,328,0,72,0
+9,odor = none; not (spore-print-color = green); not (stalk-surface-below-ring = scaly); not (gill-size = narrow),edible,2573,0,627,0
+11,odor = none; not (spore-print-color = green); not (stalk-surface-below-ring = scaly); gill-size = narrow; not (spore-print-color = white),edible,114,0,30,0
+13,odor = none; not (spore-print-color = green); not (stalk-surface-below-ring = scaly); gill-size = narrow; spore-print-color = white; not (ring-type = evanescent),poisonous,8,8,0,0
+14,odor = none; not (spore-print-color = green); not (stalk-surface-below-ring = scaly); gill-size = narrow; spore-print-color = white; ring-type = evanescent,edible,32,0,16,0
+16,odor = none; not (spore-print-color = green); stalk-surface-below-ring = scaly; not (ring-type = pendant),poisonous,30,30,10,10
+17,odor = none; not (spore-print-color = green); stalk-surface-below-ring = scaly; ring-type = pendant,edible,15,0,1,0
+18,odor = none; spore-print-color = green,poisonous,56,56,16,16

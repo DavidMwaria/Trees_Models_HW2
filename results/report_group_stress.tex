@@ -1,0 +1,15 @@
+\begin{table}[H]
+\centering\small
+\caption{Stress test with fixed five-trait groups held apart. Metrics pool five validation folds of training rows.}
+\begin{adjustbox}{max width=\linewidth}\begin{tabular}{lrrrrrr}
+\toprule
+Model & Accuracy & Precision & Recall & F1 & FN & FP \\
+\midrule
+AdaBoost & 0.9648 & 0.9575 & 0.9700 & 0.9637 & 94 & 135 \\
+Decision Tree & 0.9771 & 0.9822 & 0.9700 & 0.9761 & 94 & 55 \\
+Profile lookup fallback & 0.5179 & 0.0000 & 0.0000 & 0.0000 & 3133 & 0 \\
+Random Forest & 0.9771 & 0.9822 & 0.9700 & 0.9761 & 94 & 55 \\
+XGBoost & 0.9802 & 0.9886 & 0.9700 & 0.9792 & 94 & 35 \\
+\bottomrule
+\end{tabular}\end{adjustbox}
+\end{table}
