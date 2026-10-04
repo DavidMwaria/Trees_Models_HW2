@@ -23,3 +23,6 @@ Thumbs.db
 
 # Graphviz intermediates (keep the exported PDFs in figs/)
 *.gv
+
+# Local copy of the data; the notebook reads it from the public GitHub URL instead
+mushrooms/
